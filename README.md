@@ -22,3 +22,11 @@ The related practical is [1.2 Part A: Your first interactive UI](https://codelab
   - Definition of View attributes
   - Use of no hard-coded resources
   - Use of event handler
+  - use of Toast
+  
+## 1.2 Part A Challenge - Hello Toast Challenge (helloToastChallenge)
+
+Coding challenge from [1.2 Part A: Your first interactive UI](https://codelabs.developers.google.com/codelabs/android-training-layout-editor-part-a).
+
+### Issues
+  - When device orientation is changed count value is set to 0.

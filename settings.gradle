@@ -1,2 +1,2 @@
-include ':app', ':helloworld', ':happybirthday', ':hellotoast'
+include ':app', ':helloworld', ':happybirthday', ':hellotoast', ':helloToastChallenge'
 rootProject.name='Android Developer Fundamentals (Version 2)'
