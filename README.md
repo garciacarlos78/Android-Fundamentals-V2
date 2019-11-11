@@ -61,3 +61,7 @@ After "HelloToastB changed to RelativeLayout" commit, the `LinearLayout` in the 
 Coding challenge from [1.2 Part B: The layout editor](https://codelabs.developers.google.com/codelabs/android-training-layout-editor-part-b).
   
 Centering the buttons from Hello Toast B in a tablet when in landscape.  
+
+## 1.2 Part B Homework - Hello Constraints (helloConstraints)
+[1.2 Part B Homework](https://codelabs.developers.google.com/codelabs/android-training-layout-editor-part-b/#9).
+ 
