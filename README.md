@@ -40,6 +40,8 @@ Adding landscape phone layout and tablet layout to Hello Toast.
 
 After "HelloToastB changed to LinearLayout" commit, the `ConstraintLayout` in the phone portrait orientation is changed to `LinearLayout`.
 
+After "HelloToastB changed to RelativeLayout" commit, the `LinearLayout` in the phone portrait orientation is changed to `RelativeLayout`.
+
 ### Goals
   - Learning more features of `ConstraintLayout` and the layout editor.
   - Introduce two other `ViewGroup` subclasses: `LinearLayout` and `RelativeLayout`
@@ -51,7 +53,8 @@ After "HelloToastB changed to LinearLayout" commit, the `ConstraintLayout` in th
   
 ### Interesting learning
   - If just one View has the attribute `weight` set, this View expands to occupy all of the free space. This is how the `TextView` occupies most of the screen.
-  - If you have 3 elements with weights of 1,2 and 1, they occupy 1/4, 2/4 and 1/4 of the space respectively.   
+  - If you have 3 elements with weights of 1,2 and 1, they occupy 1/4, 2/4 and 1/4 of the space respectively.
+  - textAlignmen `TextView` attribute, not available in *Attributes*, can be set directly via XML. 
 
 ## 1.2 Part B Challenge - Hello Toast B Challenge (helloToastBChallenge)
 
