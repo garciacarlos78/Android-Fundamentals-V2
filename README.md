@@ -64,4 +64,10 @@ Centering the buttons from Hello Toast B in a tablet when in landscape.
 
 ## 1.2 Part B Homework - Hello Constraints (helloConstraints)
 [1.2 Part B Homework](https://codelabs.developers.google.com/codelabs/android-training-layout-editor-part-b/#9).
+
+### Learned concepts
+  - A methode used by an event holder (onClick...) must be **public void method_name (View v)**
+  - When a `View`calls a handler, it's more efficient from handler access the view directly from parameter (i.e. v) than getting it using findViewbyId.
+    - If possible, always use the `View` from parameter.
+  
  
