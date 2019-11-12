@@ -78,7 +78,7 @@ The related practical is [1.3 Text and scrolling views](https://codelabs.develop
   - `ScrollView` is memory greedy. It's efficient and ideal for text, because it loads all of the content in memory and that's fast. 
     - If you want to show a long list of items better use `RecyclerView`. 
   - Text:
-    - It only accepts <b> and <i> (bold and italic) HTML tags.
+    - It only accepts \<b> and \<i> (bold and italic) HTML tags.
     - It only starts new paragraph with \n.
     - A "return" in the resource string will be seen as a space, you must not separate paragraphs this way.
     - Must escape (\) special symbols (apostrophe, quotes...).
