@@ -86,6 +86,10 @@ The related practical is [1.3 Text and scrolling views](https://codelabs.develop
     
 ### Challenge (scrollingChallenge)
 [Coding challenge of the chapter](https://codelabs.developers.google.com/codelabs/android-training-text-and-scrolling-views/#6).
+
 Adding a button below the article, within the `LinearLayout` so that the user must scroll to the end of the article to see the button.
 
-    
+### Homework (scrollingHomework)
+[Homework of the chapter](https://codelabs.developers.google.com/codelabs/android-training-text-and-scrolling-views/#10).
+
+Placing the subheading in a column on the left.     
