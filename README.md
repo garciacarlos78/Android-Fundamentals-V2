@@ -82,4 +82,4 @@ The related practical is [1.3 Text and scrolling views](https://codelabs.develop
     - It only starts new paragraph with \n.
     - A "return" in the resource string will be seen as a space, you must not separate paragraphs this way.
     - Must escape (\) special symbols (apostrophe, quotes...).
-    - Hyperlinks can be automated with special attribute in `View` declaration (.XML).
+    - Hyperlinks can be automated with specific attribute (`autoLink`) in `View` declaration (.XML).
