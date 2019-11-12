@@ -83,3 +83,9 @@ The related practical is [1.3 Text and scrolling views](https://codelabs.develop
     - A "return" in the resource string will be seen as a space, you must not separate paragraphs this way.
     - Must escape (\) special symbols (apostrophe, quotes...).
     - Hyperlinks can be automated with specific attribute (`autoLink`) in `View` declaration (.XML).
+    
+### Challenge (scrollingChallenge)
+[Coding challenge of the chapter](https://codelabs.developers.google.com/codelabs/android-training-text-and-scrolling-views/#6).
+Adding a button below the article, within the `LinearLayout` so that the user must scroll to the end of the article to see the button.
+
+    
