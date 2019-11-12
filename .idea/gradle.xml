@@ -8,6 +8,7 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/basicActivity" />
             <option value="$PROJECT_DIR$/happybirthday" />
             <option value="$PROJECT_DIR$/helloConstraints" />
             <option value="$PROJECT_DIR$/helloToastB" />
