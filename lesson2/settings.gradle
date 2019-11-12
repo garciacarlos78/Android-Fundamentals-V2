@@ -1,0 +1,2 @@
+include ':twoActivities'
+rootProject.name='Lesson 2'
