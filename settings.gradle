@@ -1,2 +1,2 @@
-include ':helloworld', ':happybirthday', ':hellotoast', ':helloToastChallenge', ':helloToastB', ':helloToastBChallenge', ':helloConstraints', ':scrollingtext', ':scrollingChallenge', ':scrollingHomework'
+include ':helloworld', ':happybirthday', ':hellotoast', ':helloToastChallenge', ':helloToastB', ':helloToastBChallenge', ':helloConstraints', ':scrollingtext', ':scrollingChallenge', ':scrollingHomework', ':launcherIcon'
 rootProject.name='Android Developer Fundamentals (Version 2)'

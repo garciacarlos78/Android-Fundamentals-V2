@@ -92,4 +92,13 @@ Adding a button below the article, within the `LinearLayout` so that the user mu
 ### Homework (scrollingHomework)
 [Homework of the chapter](https://codelabs.developers.google.com/codelabs/android-training-text-and-scrolling-views/#10).
 
-Placing the subheading in a column on the left.     
+Placing the subheading in a column on the left.
+
+## 1.4: Learn to help yourself
+
+The related practical is [1.4: Learn to help yourself](https://codelabs.developers.google.com/codelabs/android-training-available-resources).
+
+### Task 1 - Change the launcher icon (launcherIcon)
+
+Modifying app's launcher icon.
+

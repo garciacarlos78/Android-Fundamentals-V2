@@ -1,3 +1,5 @@
+## Automatic included files
+
 *.iml
 .gradle
 /local.properties
@@ -12,3 +14,7 @@
 /captures
 .externalNativeBuild
 .cxx
+
+## Files included by me
+
+pending.md
