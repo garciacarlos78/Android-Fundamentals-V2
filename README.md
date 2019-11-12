@@ -70,4 +70,16 @@ Centering the buttons from Hello Toast B in a tablet when in landscape.
   - When a `View`calls a handler, it's more efficient from handler access the view directly from parameter (i.e. v) than getting it using findViewbyId.
     - If possible, always use the `View` from parameter.
   
- 
+## 1.3 Text and scrolling views - Scrolling Text (scrollingtext)
+The related practical is [1.3 Text and scrolling views](https://codelabs.developers.google.com/codelabs/android-training-text-and-scrolling-views)
+### Concepts
+  - `ScrollView` can only hold a child within it.
+    - If more views needed, the best choice is a `LinearLayout` with vertical orientation containing the views.
+  - `ScrollView` is memory greedy. It's efficient and ideal for text, because it loads all of the content in memory and that's fast. 
+    - If you want to show a long list of items better use `RecyclerView`. 
+  - Text:
+    - It only accepts <b> and <i> (bold and italic) HTML tags.
+    - It only starts new paragraph with \n.
+    - A "return" in the resource string will be seen as a space, you must not separate paragraphs this way.
+    - Must escape (\) special symbols (apostrophe, quotes...).
+    - Hyperlinks can be automated with special attribute in `View` declaration (.XML).
