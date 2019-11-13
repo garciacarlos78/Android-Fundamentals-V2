@@ -10,14 +10,14 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
-            android:name="com.cgrdev.lesson2.lifecycleCallbacks.SecondActivity"
+            android:name="com.cgrdev.lifecycleCallbacks.SecondActivity"
             android:label="@string/activity2_name"
-            android:parentActivityName="com.cgrdev.lesson2.lifecycleCallbacks.MainActivity">
+            android:parentActivityName="com.cgrdev.lifecycleCallbacks.MainActivity">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.cgrdev.lesson2.lifecycleCallbacks.MainActivity" />
+                android:value="com.cgrdev.lifecycleCallbacks.MainActivity" />
         </activity>
-        <activity android:name="com.cgrdev.lesson2.lifecycleCallbacks.MainActivity">
+        <activity android:name="com.cgrdev.lifecycleCallbacks.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

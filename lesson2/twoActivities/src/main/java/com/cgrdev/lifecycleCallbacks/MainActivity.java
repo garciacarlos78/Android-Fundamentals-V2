@@ -1,4 +1,4 @@
-package com.cgrdev.lesson2;
+package com.cgrdev.lifecycleCallbacks;
 
 import androidx.appcompat.app.AppCompatActivity;
 

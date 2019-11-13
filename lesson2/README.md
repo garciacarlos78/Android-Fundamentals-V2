@@ -31,7 +31,11 @@ https://codelabs.developers.google.com/codelabs/android-training-create-an-activ
 
 When it goes back from second activity to first one, count is resetted to zero.
 
-  
-  
-  
+# 2.2 - Activity lifecycle and state
+
+[Related codelab](https://codelabs.developers.google.com/codelabs/android-training-activity-lifecycle-and-state).
+
+## Task 1 (lifecycleCallbacks)
+
+Goals: observe application lifecycle via `Log` messages.
 
