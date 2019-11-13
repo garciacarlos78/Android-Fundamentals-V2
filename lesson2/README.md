@@ -19,7 +19,7 @@ Create an activity that launches a second activity.
   
 ## Coding challenge (threeButtons)
 
-[https://codelabs.developers.google.com/codelabs/android-training-create-an-activity/#7]
+https://codelabs.developers.google.com/codelabs/android-training-create-an-activity/#7
 
 Create an activity with 3 buttons that start a second activity with a scroll view showing a different text depending on the button clicked.
 
