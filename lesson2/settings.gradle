@@ -1,2 +1,2 @@
-include ':twoActivities'
+include ':twoActivities', ':threeButtons'
 rootProject.name='Lesson 2'

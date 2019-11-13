@@ -17,5 +17,13 @@ Create an activity that launches a second activity.
   - `android:label` in manifest.xml adds the Activity's title to the app bar.
   - `android:visibility="invisible"`: make initially invisible the view where applied.
   
+## Coding challenge (threeButtons)
+
+[https://codelabs.developers.google.com/codelabs/android-training-create-an-activity/#7]()
+
+Create an activity with 3 buttons that start a second activity with a scroll view showing a different text depending on the button clicked.
+
+  
+  
   
 
