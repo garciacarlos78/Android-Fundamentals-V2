@@ -39,3 +39,18 @@ When it goes back from second activity to first one, count is resetted to zero.
 
 Goals: observe application lifecycle via `Log` messages.
 
+## Task 2 - Save and restore Activity instance state (instanceState)
+
+Goals: saving instance state to avoid losing data when activity destroyed and recreated (i.e. when rotating the device).
+
+Source code: *lifecycleCallbacks*.
+
+### Key points
+
+  - `Bundle` `Activity` *instance state*.
+  - `onSaveInstanceState()` method (called between `onPause()` and `onStop()`.
+  - State information of some of the `View` elements automatically saved accross configuration changes (i.e. `EditText`).
+  - It is possible to restore the state either in `onCreate` or in `onRestoreInstanceState()`.
+    - Most of the time the better place is `onCreate()`, but sometimes it is convenient to do it in `onRestoreInstanceState()`.
+    - When you go back from second activity to first one with back button, first activity is resumed and you preserve the data.
+    - When you do the same with the up navigation arrow, the first activity is destroyed and re created, so you lose all of the data.

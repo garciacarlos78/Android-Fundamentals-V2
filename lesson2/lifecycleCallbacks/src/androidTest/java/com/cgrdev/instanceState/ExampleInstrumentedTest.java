@@ -1,4 +1,4 @@
-package com.cgrdev.lifecycleCallbacks;
+package com.cgrdev.instanceState;
 
 import android.content.Context;
 

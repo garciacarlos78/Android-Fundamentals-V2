@@ -1,4 +1,4 @@
-package com.cgrdev.lifecycleCallbacks;
+package com.cgrdev.instanceState;
 
 import androidx.appcompat.app.AppCompatActivity;
 

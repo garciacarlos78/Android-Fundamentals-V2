@@ -1,2 +1,2 @@
-include ':twoActivities', ':threeButtons', ':sayHello', ':lifecycleCallbacks'
+include ':twoActivities', ':threeButtons', ':sayHello', ':lifecycleCallbacks', ':instanceState'
 rootProject.name='Lesson 2'

@@ -8,6 +8,7 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/instanceState" />
             <option value="$PROJECT_DIR$/lifecycleCallbacks" />
             <option value="$PROJECT_DIR$/sayHello" />
             <option value="$PROJECT_DIR$/threeButtons" />
