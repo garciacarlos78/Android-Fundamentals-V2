@@ -23,6 +23,14 @@ https://codelabs.developers.google.com/codelabs/android-training-create-an-activ
 
 Create an activity with 3 buttons that start a second activity with a scroll view showing a different text depending on the button clicked.
 
+## Homework (sayHello)
+
+https://codelabs.developers.google.com/codelabs/android-training-create-an-activity/#11
+
+### Issues
+
+When it goes back from second activity to first one, count is resetted to zero.
+
   
   
   
