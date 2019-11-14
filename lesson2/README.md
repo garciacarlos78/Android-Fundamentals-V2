@@ -69,4 +69,21 @@ https://codelabs.developers.google.com/codelabs/android-training-activity-lifecy
     
 ## Homework - CounterHomework (counterHomework)
 
-Make an app with a counter that preserves its value when device rotated.  
+https://codelabs.developers.google.com/codelabs/android-training-activity-lifecycle-and-state/#8
+
+Make an app with a counter that preserves its value when device rotated.
+
+# 2.3 - Implicit intents
+
+[Related codelab](https://codelabs.developers.google.com/codelabs/android-training-activity-with-implicit-intent/#0).
+
+## Tasks 1-4 - Sending implicit intents (implicitIntents)
+
+Building and app that send implicit intents to perform:
+  - Open URL in a web browser.
+  - Open map location.
+  - Share text.
+
+## Task 5 - Receiving an implicit intent
+  
+Creating a simple intent-receiver that accepts implicit intents for a specific action.  
