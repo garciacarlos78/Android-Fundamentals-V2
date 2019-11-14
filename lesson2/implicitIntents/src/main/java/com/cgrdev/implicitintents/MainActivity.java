@@ -52,7 +52,7 @@ public class MainActivity extends AppCompatActivity {
     // Implicit Intent to open a location
     Intent intent = new Intent(Intent.ACTION_VIEW, addressUri);
 
-    // Chekc if there is an Activity to handle the Intent
+    // Check if there is an Activity to handle the Intent
     if (intent.resolveActivity(getPackageManager()) != null) {
       startActivity(intent);
     } else {

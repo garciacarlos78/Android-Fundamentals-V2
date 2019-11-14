@@ -91,3 +91,7 @@ Creating a simple intent-receiver that accepts implicit intents for a specific a
 It only accepts 'http' protocol with developer.android.com address.
 
 Run both *implicitIntents* and *implicitIntentsReceiver* to test the latter.
+
+## Coding challenge (shoppingListMap)
+
+Add an EditText and a Button to the Shopping-List app to locate a store on a map.

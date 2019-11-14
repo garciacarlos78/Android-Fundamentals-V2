@@ -1,2 +1,2 @@
-include ':twoActivities', ':threeButtons', ':sayHello', ':lifecycleCallbacks', ':instanceState', ':shoppingList', ':counterHomework', ':implicitIntents', ':implicitIntentsReceiver'
+include ':twoActivities', ':threeButtons', ':sayHello', ':lifecycleCallbacks', ':instanceState', ':shoppingList', ':counterHomework', ':implicitIntents', ':implicitIntentsReceiver', ':shoppingListMap'
 rootProject.name='Lesson 2'

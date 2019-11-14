@@ -15,6 +15,7 @@
             <option value="$PROJECT_DIR$/lifecycleCallbacks" />
             <option value="$PROJECT_DIR$/sayHello" />
             <option value="$PROJECT_DIR$/shoppingList" />
+            <option value="$PROJECT_DIR$/shoppingListMap" />
             <option value="$PROJECT_DIR$/threeButtons" />
             <option value="$PROJECT_DIR$/twoActivities" />
           </set>

@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Shopping List Map</string>
+    <string name="add_item">Add Item</string>
+    <string name="label_product_selection">Product Selection</string>
+    <string name="yoghourt">Yoghourt</string>
+    <string name="beer_can">Beer (can)</string>
+    <string name="beer_bottle">Beer (bottle)</string>
+    <string name="semi_skimmed_milk">Semi skimmed milk</string>
+    <string name="skimmed_milk">Skimmed milk</string>
+    <string name="coffee">Coffee</string>
+    <string name="cheese">Cheese</string>
+    <string name="bread">Bread</string>
+    <string name="store_hint">Type Store To Locate</string>
+    <string name="locate_store">Locate Store</string>
+</resources>
