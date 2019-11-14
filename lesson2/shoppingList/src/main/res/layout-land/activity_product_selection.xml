@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ProductSelectionActivity">
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center_vertical"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/button_bread"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="sendProduct"
+            android:text="@string/bread" />
+
+        <Button
+            android:id="@+id/button_cheese"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="sendProduct"
+            android:text="@string/cheese" />
+
+        <Button
+            android:id="@+id/button_coffee"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="sendProduct"
+            android:text="@string/coffee" />
+
+        <Button
+            android:id="@+id/button_skimmed_milk"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="sendProduct"
+            android:text="@string/skimmed_milk" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/button_yoghourt"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:onClick="sendProduct"
+            android:text="@string/yoghourt" />
+
+        <Button
+            android:id="@+id/button_semiskimmed_milk"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:onClick="sendProduct"
+            android:text="@string/semi_skimmed_milk" />
+
+        <Button
+            android:id="@+id/button_beer_can"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:onClick="sendProduct"
+            android:text="@string/beer_can" />
+
+        <Button
+            android:id="@+id/button_beer_bottle"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:onClick="sendProduct"
+            android:text="@string/beer_bottle" />
+    </LinearLayout>
+
+</LinearLayout>

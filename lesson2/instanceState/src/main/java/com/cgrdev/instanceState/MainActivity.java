@@ -39,6 +39,7 @@ public class MainActivity extends AppCompatActivity {
 
     // Restore the state, if needed
     if (savedInstanceState != null) {
+      Log.d(LOG_TAG, "Have bundle");
       boolean isVisible =
               savedInstanceState.getBoolean("reply_visible");
       if (isVisible) {
@@ -92,6 +93,7 @@ public class MainActivity extends AppCompatActivity {
   @Override
   protected void onSaveInstanceState(Bundle outState) {
     super.onSaveInstanceState(outState);
+    Log.d(LOG_TAG, "onSaveInstanceState");
 
     // Check if header is currently visible and save that visibility state into the state Bundle
     if (mReplyHeadTextView.getVisibility() == View.VISIBLE) {

@@ -52,5 +52,19 @@ Source code: *lifecycleCallbacks*.
   - State information of some of the `View` elements automatically saved accross configuration changes (i.e. `EditText`).
   - It is possible to restore the state either in `onCreate` or in `onRestoreInstanceState()`.
     - Most of the time the better place is `onCreate()`, but sometimes it is convenient to do it in `onRestoreInstanceState()`.
-    - When you go back from second activity to first one with back button, first activity is resumed and you preserve the data.
-    - When you do the same with the up navigation arrow, the first activity is destroyed and re created, so you lose all of the data.
+  - When you go back from second activity to first one with back button, first activity is resumed and you preserve the data.
+  - When you do the same with the up navigation arrow, the first activity is destroyed and re created, so you lose all of the data.
+
+## Coding challenge - Shopping-list app (shoppingList)
+
+https://codelabs.developers.google.com/codelabs/android-training-activity-lifecycle-and-state/#4
+
+### Key points
+  - Use constants as key to pass information in the intents.
+  - Arrange items.
+  - Include landscape variation in both activities.
+  - Visibility of empty `TextViews`.
+  - State saving to avoid lose information when rotate.
+    - When you use up navigation, onCreate receives null savedInstanceState bundle.
+    
+  
