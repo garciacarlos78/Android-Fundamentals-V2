@@ -84,6 +84,10 @@ Building and app that send implicit intents to perform:
   - Open map location.
   - Share text.
 
-## Task 5 - Receiving an implicit intent
+## Task 5 - Receiving an implicit intent (implicitIntentsReceiver)
   
-Creating a simple intent-receiver that accepts implicit intents for a specific action.  
+Creating a simple intent-receiver that accepts implicit intents for a specific action.
+
+It only accepts 'http' protocol with developer.android.com address.
+
+Run both *implicitIntents* and *implicitIntentsReceiver* to test the latter.

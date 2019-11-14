@@ -10,6 +10,7 @@
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/counterHomework" />
             <option value="$PROJECT_DIR$/implicitIntents" />
+            <option value="$PROJECT_DIR$/implicitIntentsReceiver" />
             <option value="$PROJECT_DIR$/instanceState" />
             <option value="$PROJECT_DIR$/lifecycleCallbacks" />
             <option value="$PROJECT_DIR$/sayHello" />
