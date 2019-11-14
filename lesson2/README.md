@@ -67,4 +67,6 @@ https://codelabs.developers.google.com/codelabs/android-training-activity-lifecy
   - State saving to avoid lose information when rotate.
     - When you use up navigation, onCreate receives null savedInstanceState bundle.
     
-  
+## Homework - CounterHomework (counterHomework)
+
+Make an app with a counter that preserves its value when device rotated.  
