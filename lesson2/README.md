@@ -103,6 +103,7 @@ Adding a "take picture" button to the Implicit Intents app that will open the ca
 ### Key points
 
   - Restrict visibility on Google Play to devices with camera: advertise that tagging manifest:
+  
     `<uses-feature android:name="android.hardware.camera"
                        android:required="true" />`
   - Action for the Intent: `MediaStore.ACTION_IMAGE_CAPTURE`
