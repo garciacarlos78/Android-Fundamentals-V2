@@ -95,3 +95,18 @@ Run both *implicitIntents* and *implicitIntentsReceiver* to test the latter.
 ## Coding challenge (shoppingListMap)
 
 Add an EditText and a Button to the Shopping-List app to locate a store on a map.
+
+## Homework (implicitIntentsCamera)
+
+Adding a "take picture" button to the Implicit Intents app that will open the camera app to take a picture, without returning that picture.
+
+### Key points
+
+  - Restrict visibility on Google Play to devices with camera: advertise that tagging manifest:
+    `<uses-feature android:name="android.hardware.camera"
+                       android:required="true" />`
+  - Action for the Intent: `MediaStore.ACTION_IMAGE_CAPTURE`
+  - If required doing something with the picture (not the case), `startActivityForResult`
+  
+### Possible future homework
+  - Doing something with the picture.                         
