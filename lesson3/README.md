@@ -75,7 +75,7 @@ Whole project in folder *HelloCompat*.
     `int colorRes = ContextCompat.getColor(this, colorResourceName);`
     When you step into, you can see:
     
-    `
+    ```
     @ColorInt
     public static int getColor(@NonNull Context context, @ColorRes int id) {    
             if (Build.VERSION.SDK_INT >= 23) {
@@ -83,6 +83,7 @@ Whole project in folder *HelloCompat*.
             } else {
                 return context.getResources().getColor(id);
             }
-        }        `
+        }
+    ````
         
      So, you can avoid using ContextCompat replacing it with the code indicated.
