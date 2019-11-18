@@ -16,16 +16,19 @@ Codelab from https://codelabs.developers.google.com/codelabs/android-training-cl
     for: `app:srcCompat="@drawable/ic_shopping_cart"`
     but this produces the next error, although it works:
     
-    To use VectorDrawableCompat, you need to set android.defaultConfig.vectorDrawables.useSupportLibrary = true.  
+        To use VectorDrawableCompat, you need to set android.defaultConfig.vectorDrawables.useSupportLibrary = true.  
     
-    To use VectorDrawableCompat, you need to make two modifications to your project. First, set android.defaultConfig.vectorDrawables.useSupportLibrary = true in your build.gradle file, and second, use app:srcCompat instead of android:src to refer to vector drawables.  
+        To use VectorDrawableCompat, you need to make two modifications to your project. First, set 
+        android.defaultConfig.vectorDrawables.useSupportLibrary = true in your build.gradle file, and second, use 
+        app:srcCompat instead of android:src to refer to vector drawables.  
     
-    Issue id: VectorDrawableCompat 
-    http://chris.banes.me/2016/02/25/appcompat-vector/#enabling-the-flag
+        Issue id: VectorDrawableCompat 
+        http://chris.banes.me/2016/02/25/appcompat-vector/#enabling-the-flag
     
-    Following the instructions of the link above, you just must add the following line to `build.gradle (Module: app` (inside `android { default config {`:
-      `vectorDrawables.useSupportLibrary = true  
-`     
+    Following the instructions of the link above, you just must add the following line to `build.gradle (Module: droidCafe)` (inside `android { default config {`):
+    
+        `vectorDrawables.useSupportLibrary = true`
+      
       - There are no clear instructions about changing the icon in the codelab.
       
 
