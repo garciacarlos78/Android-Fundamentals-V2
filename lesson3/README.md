@@ -46,7 +46,7 @@ Special values for testing (from https://www.tutorialspoint.com/java/lang/math_p
     abs value first < 1, second negative infinity
       - Result: positive infinity
   - Abs value first > 1, second ngative infinity OR
-    abs fist < 1, second positive infinity
+    abs first < 1, second positive infinity
       - Result: positive 0
   - First 1, second infinite (=NaN)
   - First +0, second > 0 OR
@@ -56,3 +56,32 @@ Special values for testing (from https://www.tutorialspoint.com/java/lang/math_p
 
 #### Key points
   - Must change `android:inputType="numberDecimal"` by `android:inputType="numberSigned|numberDecimal"`, so it's possible enter negative numbers.
+  
+## 3.3 - Support libraries (HelloCompat)
+
+Codelab: https://codelabs.developers.google.com/codelabs/android-training-support-libraries.
+
+Whole project in folder *HelloCompat*.
+
+### Interesting points
+  - Get a random number between 0 and 19: `Random.nextInt(20)`.
+  - Get resource identifier: `int colorResourceName = getResources().getIdentifier(colorName, "color", getApplicationContext().getPackageName());`
+  - A way to know how to avoid using ContextCompat:
+    - Set a debugger breakpoint in the line that uses it
+    - Debug and use *step into*
+    - You can then watch the different behaviour depending on the API.
+    
+    In this concrete case:
+    `int colorRes = ContextCompat.getColor(this, colorResourceName);`
+    When you step into, you can see:
+    
+    `@ColorInt
+        public static int getColor(@NonNull Context context, @ColorRes int id) {
+            if (Build.VERSION.SDK_INT >= 23) {
+                return context.getColor(id);
+            } else {
+                return context.getResources().getColor(id);
+            }
+        }`
+        
+     So, you can avoid using ContextCompat replacing it with the code indicated.
