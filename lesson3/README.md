@@ -69,10 +69,12 @@ Whole project in folder *HelloCompat*.
   - A way to know how to avoid using ContextCompat:
     - Set a debugger breakpoint in the line that uses it
     - Debug and use *step into*
-    - You can then watch the different behaviour depending on the API.
+    - You can then view the different behaviour depending on the API.
     
-    In this concrete case:
+    In this specific case:
+    
     `int colorRes = ContextCompat.getColor(this, colorResourceName);`
+    
     When you step into, you can see:
     
     ```
@@ -86,4 +88,4 @@ Whole project in folder *HelloCompat*.
         }
     ````
         
-     So, you can avoid using ContextCompat replacing it with the code indicated.
+     So, you can avoid using ContextCompat replacing it with the code shown above.
