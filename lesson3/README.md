@@ -4,6 +4,8 @@ Practicals related to [Android Developer Fundamentals (Version 2) - Unit 1: Get 
 
 ## 3.1 - The debugger (SimpleCalc)
 
+Codelab from https://codelabs.developers.google.com/codelabs/android-training-using-debugger
+
 *SimpleCalc* contains the whole project imported from https://github.com/google-developer-training/android-fundamentals-starter-apps-v2/tree/master/SimpleCalc.
 
 Android Gradle Plugin update recommended, not updated.
@@ -11,3 +13,9 @@ Android Gradle Plugin update recommended, not updated.
 ### Key points
   - Conditional breakpoint -> right click on breakpoint, add condition.
   
+## 3.2 - Unit tests
+
+Codelab from https://codelabs.developers.google.com/codelabs/android-training-unit-tests
+
+### Task 2 - Add more unit test to CalculatorTest (SimpleCalcUnitTests)
+
