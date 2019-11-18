@@ -34,3 +34,7 @@ Codelab from https://codelabs.developers.google.com/codelabs/android-training-cl
   - Read [How to Write Doc Comments for the Javadoc Tool](http://www.oracle.com/technetwork/articles/java/index-137868.html)
   
   - When you order a dessert and you change the phone orientation, you lose the order. In the *Homework* version this will be solved (saving state).
+  
+### HomeWork (droidCafeHomework)
+
+Added horizontal orientation layout and saving state.  
