@@ -19,3 +19,40 @@ Codelab from https://codelabs.developers.google.com/codelabs/android-training-un
 
 ### Task 2 - Add more unit test to CalculatorTest (SimpleCalcUnitTests)
 
+Added required unit tests.
+
+### Coding challenges (SimpleCalcUnitTest)
+
+Challenges from the codelab implemented in base *SimpleCalc*.
+
+#### Challenge 1
+
+I can't get an `IllegalArgumentException` because I get *Infinity* as a result, not a exception.
+
+Anyway, I've implemented the unitary test according to https://stackoverflow.com/questions/156503/how-do-you-assert-that-a-certain-exception-is-thrown-in-junit-4-tests.
+
+#### Challenge 2
+
+**PENDING**
+
+### Homework (SimpleCalcHomework)
+
+Special values for testing (from https://www.tutorialspoint.com/java/lang/math_pow.htm):
+  - Second argument == 0, -0 (=1.0)
+  - Second argument 1.0 (= fist arg)
+  - Second argument NaN (=NaN)
+  - First NaN, second != 0 (=NaN)
+  - Abs value first > 1, second positive infinity OR
+    abs value first < 1, second negative infinity
+      - Result: positive infinity
+  - Abs value first > 1, second ngative infinity OR
+    abs fist < 1, second positive infinity
+      - Result: positive 0
+  - First 1, second infinite (=NaN)
+  - First +0, second > 0 OR
+    First +infinity, second < 0
+      - Result: +0     
+  - ...
+
+#### Key points
+  - Must change `android:inputType="numberDecimal"` by `android:inputType="numberSigned|numberDecimal"`, so it's possible enter negative numbers.

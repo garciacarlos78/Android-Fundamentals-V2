@@ -9,6 +9,8 @@
           <set>
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/SimpleCalc" />
+            <option value="$PROJECT_DIR$/SimpleCalcChallenge" />
+            <option value="$PROJECT_DIR$/SimpleCalcHomework" />
             <option value="$PROJECT_DIR$/SimpleCalcUnitTests" />
           </set>
         </option>

@@ -3,6 +3,8 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/SimpleCalc/SimpleCalc.iml" filepath="$PROJECT_DIR$/SimpleCalc/SimpleCalc.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SimpleCalcChallenge/SimpleCalcChallenge.iml" filepath="$PROJECT_DIR$/SimpleCalcChallenge/SimpleCalcChallenge.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SimpleCalcHomework/SimpleCalcHomework.iml" filepath="$PROJECT_DIR$/SimpleCalcHomework/SimpleCalcHomework.iml" />
       <module fileurl="file://$PROJECT_DIR$/SimpleCalcUnitTests/SimpleCalcUnitTests.iml" filepath="$PROJECT_DIR$/SimpleCalcUnitTests/SimpleCalcUnitTests.iml" />
       <module fileurl="file://$PROJECT_DIR$/lesson3.iml" filepath="$PROJECT_DIR$/lesson3.iml" />
     </modules>

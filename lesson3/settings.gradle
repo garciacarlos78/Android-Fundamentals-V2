@@ -1,1 +1,1 @@
-include ':SimpleCalc', ':SimpleCalcUnitTests'
+include ':SimpleCalc', ':SimpleCalcUnitTests', ':SimpleCalcChallenge', ':SimpleCalcHomework'
