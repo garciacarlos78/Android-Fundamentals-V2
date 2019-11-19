@@ -1,2 +1,2 @@
 include ':droidCafe', ':droidCafeHomework'
-rootProject.name='Droid Cafe'
+rootProject.name='Lesson 4'
