@@ -1,2 +1,2 @@
-include ':droidCafe', ':droidCafeHomework'
+include ':droidCafe', ':droidCafeHomework', ':droidCafeInput'
 rootProject.name='Lesson 4'

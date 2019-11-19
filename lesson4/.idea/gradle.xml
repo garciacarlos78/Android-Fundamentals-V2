@@ -10,6 +10,7 @@
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/droidCafe" />
             <option value="$PROJECT_DIR$/droidCafeHomework" />
+            <option value="$PROJECT_DIR$/droidCafeInput" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />

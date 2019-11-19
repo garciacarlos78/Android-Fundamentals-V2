@@ -3,7 +3,7 @@
 
 Practicals related to [Android Developer Fundamentals (Version 2) - Unit 2: User experience - Lesson 4: User interaction](https://google-developer-training.github.io/android-developer-fundamentals-course-concepts-v2/unit-2-user-experience/lesson-4-user-interaction/4-1-c-buttons-and-clickable-images/4-1-c-buttons-and-clickable-images.html)
 
-## 4.1 - Buttons and clickable images (DroidCafe) 
+## 4.1 - Buttons and clickable images (droidCafe) 
 
 Codelab from https://codelabs.developers.google.com/codelabs/android-training-clickable-images
 
@@ -42,3 +42,12 @@ Codelab from https://codelabs.developers.google.com/codelabs/android-training-cl
 ### HomeWork (droidCafeHomework)
 
 Added horizontal orientation layout and saving state.  
+
+## 4.2 - Input controls (droidCafeInput)
+
+Codelab from https://codelabs.developers.google.com/codelabs/android-training-input-controls.
+
+### Problems
+
+  - When you go through input fields (*EditText*) with tab key, the order is 1-2-4-3, I mean, from second field it jumps to last and from that to third.
+    - Solution: add the following attribute in XML layout to EditText "2": `android:nextFocusForward="@id/phone_text"`, being `@id/phone_text` the EditText that I want to be third in order, that is, "3" in the sequence. 
