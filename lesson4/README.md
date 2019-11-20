@@ -70,4 +70,9 @@ Create a landscape layout.
 Write code to perform an action directly from the keyboard by tapping a Send key, dialing a phone number.
 
 Instead of creating a new project for this, I use Droid Cafe project, applying to the phone field in the Order Activity.
+
+### Homework (checkboxesAndEtc)
+
+Create an app with five checkboxes and a *Show Toast* button.
+When you press the button, a toast appears showing which checkboxes are selected.
      
