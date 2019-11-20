@@ -9,6 +9,7 @@
           <set>
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/droidCafe" />
+            <option value="$PROJECT_DIR$/droidCafeChallenge" />
             <option value="$PROJECT_DIR$/droidCafeHomework" />
             <option value="$PROJECT_DIR$/droidCafeInput" />
           </set>

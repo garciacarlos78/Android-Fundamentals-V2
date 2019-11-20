@@ -50,4 +50,20 @@ Codelab from https://codelabs.developers.google.com/codelabs/android-training-in
 ### Problems
 
   - When you go through input fields (*EditText*) with tab key, the order is 1-2-4-3, I mean, from second field it jumps to last and from that to third.
-    - Solution: add the following attribute in XML layout to EditText "2": `android:nextFocusForward="@id/phone_text"`, being `@id/phone_text` the EditText that I want to be third in order, that is, "3" in the sequence. 
+    - Solution: add the following attribute in XML layout to EditText "2": `android:nextFocusForward="@id/phone_text"`, being `@id/phone_text` the EditText that I want to be third in order, that is, "3" in the sequence.
+    
+### Coding Challenge (droidCafeChallenge)
+
+Make a radio button a default button, that is, mark it as selected when the activity is first opened.
+
+Solution: include the following line in the XML layout, in the button we want to be de default one: `android:checked="true"`
+
+Included in this module Task 3 of codelab (*Use a spinner for user choices*).
+
+#### TO DO
+
+Save state to avoid losing information when rotate the device.
+Create a landscape layout.
+
+
+     
