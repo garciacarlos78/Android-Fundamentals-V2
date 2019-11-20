@@ -76,3 +76,19 @@ Instead of creating a new project for this, I use Droid Cafe project, applying t
 Create an app with five checkboxes and a *Show Toast* button.
 When you press the button, a toast appears showing which checkboxes are selected.
      
+## 4.3 - Menus and pickers
+
+Codelab from https://codelabs.developers.google.com/codelabs/android-training-menus-and-pickers.
+
+### Task 1 - Add items to the options menu (droidCafeOptionsT1)
+
+Task developed using *droidCafeChallenge* as a source module.
+
+#### Interesting key point
+
+  - Using `NoActionBar` themes prevents the app from using native `ActionBar` class to provide app bar.
+    - We must use these themes if we plan to use `AppBarLayout` to define the app bar.
+       
+### Task 2 - Add icons for menu items (droidCafeOptionsT2)
+
+Task developed using *droidCafeOptionsT1* as a source module.       
