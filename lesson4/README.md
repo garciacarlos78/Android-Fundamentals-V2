@@ -65,5 +65,9 @@ Included in this module Task 3 of codelab (*Use a spinner for user choices*).
 Save state to avoid losing information when rotate the device.
 Create a landscape layout.
 
+### Coding Challenge 2 (droidCafeChallenge2)
 
+Write code to perform an action directly from the keyboard by tapping a Send key, dialing a phone number.
+
+Instead of creating a new project for this, I use Droid Cafe project, applying to the phone field in the Order Activity.
      
