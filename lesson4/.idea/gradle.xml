@@ -18,6 +18,7 @@
             <option value="$PROJECT_DIR$/droidCafeInput" />
             <option value="$PROJECT_DIR$/droidCafeOptionsT1" />
             <option value="$PROJECT_DIR$/droidCafeOptionsT2" />
+            <option value="$PROJECT_DIR$/pickerForDate" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />

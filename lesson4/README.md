@@ -108,4 +108,7 @@ Create a *Button* to trigger a standard alert dialog.
   - *Builder* design pattern. Static member class of the class it builds.
   - Create the dialog in `onCreate()` method so it is always available to trigger it (in this example is in the `onClickshowalert` method).
 
-        
+### Task 5 - Use a picker for user input (pickerForDate)
+
+Changes from codelab:
+  - Spanish date format (dd/mm/yyyy), not U.S.        
