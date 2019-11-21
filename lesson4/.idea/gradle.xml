@@ -9,12 +9,14 @@
           <set>
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/checkboxesAndEtc" />
+            <option value="$PROJECT_DIR$/contextMenuScrollingText" />
             <option value="$PROJECT_DIR$/droidCafe" />
             <option value="$PROJECT_DIR$/droidCafeChallenge" />
             <option value="$PROJECT_DIR$/droidCafeChallenge2" />
             <option value="$PROJECT_DIR$/droidCafeHomework" />
             <option value="$PROJECT_DIR$/droidCafeInput" />
             <option value="$PROJECT_DIR$/droidCafeOptionsT1" />
+            <option value="$PROJECT_DIR$/droidCafeOptionsT2" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />

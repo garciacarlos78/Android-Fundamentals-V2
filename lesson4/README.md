@@ -89,6 +89,14 @@ Task developed using *droidCafeChallenge* as a source module.
   - Using `NoActionBar` themes prevents the app from using native `ActionBar` class to provide app bar.
     - We must use these themes if we plan to use `AppBarLayout` to define the app bar.
        
-### Task 2 - Add icons for menu items (droidCafeOptionsT2)
+### Tasks 2-3 - Add icons for menu items - Handle selected menu item (droidCafeOptionsT2)
 
-Task developed using *droidCafeOptionsT1* as a source module.       
+Task developed using *droidCafeOptionsT1* as a source module.
+
+### Coding challenge (contextMenuScrollingText)
+
+Adding a *context menu* to the *Scrolling Text* app.
+
+*Scrolling Text* source: https://github.com/garciacarlos78/Android-Fundamentals-V2/tree/master/scrollingtext.
+
+        
