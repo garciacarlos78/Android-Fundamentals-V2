@@ -118,3 +118,9 @@ Changes from codelab:
 ### Coding challenge 2 (pickerForTime)
 
 Create a Time Picker.        
+
+### Homework (droidCafeOptionsDate)
+
+Add a Date button to DroidCafeOptions app to show a date picker and show the chosen date in a Toast.
+
+Source module: droidCafeOptionsT2.
