@@ -110,5 +110,11 @@ Create a *Button* to trigger a standard alert dialog.
 
 ### Task 5 - Use a picker for user input (pickerForDate)
 
+Create a Date Picker.
+
 Changes from codelab:
-  - Spanish date format (dd/mm/yyyy), not U.S.        
+  - Spanish date format (dd/mm/yyyy), not U.S.   
+
+### Coding challenge 2 (pickerForTime)
+
+Create a Time Picker.        
