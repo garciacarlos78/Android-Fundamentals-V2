@@ -99,4 +99,13 @@ Adding a *context menu* to the *Scrolling Text* app.
 
 *Scrolling Text* source: https://github.com/garciacarlos78/Android-Fundamentals-V2/tree/master/scrollingtext.
 
+### Task 4 - Use a dialog to request a user's choice (dialogForAlert)
+
+Create a *Button* to trigger a standard alert dialog.
+
+#### Concepts
+
+  - *Builder* design pattern. Static member class of the class it builds.
+  - Create the dialog in `onCreate()` method so it is always available to trigger it (in this example is in the `onClickshowalert` method).
+
         
