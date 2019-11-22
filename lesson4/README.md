@@ -124,3 +124,48 @@ Create a Time Picker.
 Add a Date button to DroidCafeOptions app to show a date picker and show the chosen date in a Toast.
 
 Source module: droidCafeOptionsT2.
+
+## 4.4 - User navigation
+
+Codelab from https://codelabs.developers.google.com/codelabs/android-training-provide-user-navigation.
+
+### Key points
+  - Tabs appropriate for four or fewer sibling screens.
+  - Standard adapters for using fragments with `ViewPager`:
+    - `FragmentPagerAdapter`. Navigating between sibling screens representing a fixed, small number of screens.
+    - `FragmentStatePagerAdapter`. Paging across a collection of undetermined number of screens. It destroys each `Fragment` as the user navigates to other screens, minimizing memory usage.
+
+
+### Task 1 - Add an Up button for ancestral navigation (droidCafeNavigation)
+
+Add an up button to source module *droidCafeOptionsDate*.
+
+### Task 2 - Use tab navigation with swipe views (tabExperiment)
+
+New module to experiment with tab navigation and swipe views.
+
+#### Changes from codelab
+  - Using *AndroidX* instead of *Android support library*.
+    - Toolbar: androidx.appcompat.widget.Toolbar
+    - ViewPager: androidx.viewpager.widget.ViewPager    
+    - TabLayout: com.google.android.material.tabs.TabLayout
+      To be able to use `TabLayout`view, I've had to add it via XML design tab, getting the following message:
+      This operation requires the library com.google.android.material:material:+.
+      
+      Problem: Inconsistencies in the existing project dependencies found.
+      Version incompatibility between:
+       - androidx.appcompat:appcompat:1.1.0@aar
+         and:
+       - androidx.appcompat:appcompat:1.1.0@aar
+       
+      With the dependency:
+       - androidx.annotation:*:1.1.0
+       versus:
+       - androidx.annotation:*:2.0.0
+      
+      The project may not compile after adding this library.
+      Would you like to add it anyway?
+      
+      After having added it, the project has compiled.
+
+ - `FragmentPagerAdapter(FragmentManager fm)` is deprecated. use FragmentPagerAdapter(FragmentManager, int) with BEHAVIOR_RESUME_ONLY_CURRENT_FRAGMENT

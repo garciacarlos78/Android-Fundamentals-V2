@@ -1,2 +1,2 @@
-include ':droidCafe', ':droidCafeHomework', ':droidCafeInput', ':droidCafeChallenge', ':droidCafeChallenge2', ':checkboxesAndEtc', ':droidCafeOptionsT1', ':droidCafeOptionsT2', ':contextMenuScrollingText', ':dialogForAlert', ':pickerForDate', ':pickerForTime', ':droidCafeOptionsDate'
+include ':droidCafe', ':droidCafeHomework', ':droidCafeInput', ':droidCafeChallenge', ':droidCafeChallenge2', ':checkboxesAndEtc', ':droidCafeOptionsT1', ':droidCafeOptionsT2', ':contextMenuScrollingText', ':dialogForAlert', ':pickerForDate', ':pickerForTime', ':droidCafeOptionsDate', ':droidCafeNavigation', ':tabExperiment'
 rootProject.name='Lesson 4'
