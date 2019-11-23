@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--    Header's height should be 160dp, according to https://google-developer-training.github.io/android-developer-fundamentals-course-concepts-v2/unit-2-user-experience/lesson-4-user-interaction/4-4-c-user-navigation/4-4-c-user-navigation.html# -->
+<!--    When you use Nav Drawer Template, it's automatically set to 176dp-->
+    <dimen name="nav_header_height">176dp</dimen>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="nav_header_vertical_spacing">8dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+</resources>

@@ -150,6 +150,7 @@ New module to experiment with tab navigation and swipe views.
     - ViewPager: androidx.viewpager.widget.ViewPager    
     - TabLayout: com.google.android.material.tabs.TabLayout
       To be able to use `TabLayout`view, I've had to add it via XML design tab, getting the following message:
+      
       This operation requires the library com.google.android.material:material:+.
       
       Problem: Inconsistencies in the existing project dependencies found.
@@ -169,3 +170,23 @@ New module to experiment with tab navigation and swipe views.
       After having added it, the project has compiled.
 
  - `FragmentPagerAdapter(FragmentManager fm)` is deprecated. use FragmentPagerAdapter(FragmentManager, int) with BEHAVIOR_RESUME_ONLY_CURRENT_FRAGMENT
+
+### Coding challenge - Navigation drawer (navDrawerChallenge)
+
+New module from scratch, created from *Empty Activity* template (not *Navigation Drawer template*), following the instructions from https://google-developer-training.github.io/android-developer-fundamentals-course-concepts-v2/unit-2-user-experience/lesson-4-user-interaction/4-4-c-user-navigation/4-4-c-user-navigation.html#descendant.
+
+Added a Navigation drawer activity from template. From that moment on, many needed and not defined resources became available (@dimen/activity_vertical_margin, @drawable/side_nav_bar...)
+
+#### Changes from documentation
+
+  - `NavigationDrawer` added via XML design tab, with the following warning:
+    This operation requires the library com.google.android.material:material:+.
+    Accepted, and added as `com.google.android.material.navigation.NavigationView`
+
+
+#### Key points
+  - Best practice: provide navigation to all of the child screens in the app.
+  - Use `NoActionBar` theme: `android:theme="@style/AppTheme.NoActionBar"`
+  
+#### TO DO
+  - Read [Navigation Drawer](https://developer.android.com/design/patterns/navigation-drawer.html) design guide.  
