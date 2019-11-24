@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Three Children</string>
+    <string name="action_settings">Settings</string>
+    <string name="icecream_label">Icecream Activity</string>
+    <string name="froyo_label">Froyo Activity</string>
+    <string name="donut_label">Donut Activity</string>
+</resources>

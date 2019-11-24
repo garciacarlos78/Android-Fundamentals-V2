@@ -190,3 +190,7 @@ Added a Navigation drawer activity from template. From that moment on, many need
   
 #### TO DO
   - Read [Navigation Drawer](https://developer.android.com/design/patterns/navigation-drawer.html) design guide.  
+  
+### Homework (threeChildren)
+
+Homework from codelab 4.4 - User navigation.
