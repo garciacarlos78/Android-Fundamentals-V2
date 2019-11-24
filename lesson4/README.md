@@ -202,3 +202,7 @@ Create an app with a RecyclerView showing a list of words, make this list intera
 
 ### Key points
   - Extracting styles.
+  
+### Coding challenge 1 (recyclerViewChallenge1)
+
+Change the `Settings` menu option to `Reset`, and make it return the list of words to its original state.
