@@ -193,3 +193,12 @@ Added a Navigation drawer activity from template. From that moment on, many need
 ### Homework (threeChildren)
 
 Homework from codelab 4.4 - User navigation.
+
+## 4.5 - RecyclerView (recyclerView)
+
+Codelab from https://codelabs.developers.google.com/codelabs/android-training-create-recycler-view.
+
+Create an app with a RecyclerView showing a list of words, make this list interactive, making the clicked word to change, and add behavior to the FAB, adding a new word when clicked.
+
+### Key points
+  - Extracting styles.
