@@ -151,25 +151,22 @@ New module to experiment with tab navigation and swipe views.
     - TabLayout: com.google.android.material.tabs.TabLayout
       To be able to use `TabLayout`view, I've had to add it via XML design tab, getting the following message:
       
-      This operation requires the library com.google.android.material:material:+.
-      
+      This operation requires the library com.google.android.material:material:+.      
       Problem: Inconsistencies in the existing project dependencies found.
       Version incompatibility between:
        - androidx.appcompat:appcompat:1.1.0@aar
          and:
-       - androidx.appcompat:appcompat:1.1.0@aar
-       
+       - androidx.appcompat:appcompat:1.1.0@aar       
       With the dependency:
        - androidx.annotation:*:1.1.0
        versus:
-       - androidx.annotation:*:2.0.0
-      
+       - androidx.annotation:*:2.0.0      
       The project may not compile after adding this library.
       Would you like to add it anyway?
       
       After having added it, the project has compiled.
 
- - `FragmentPagerAdapter(FragmentManager fm)` is deprecated. use FragmentPagerAdapter(FragmentManager, int) with BEHAVIOR_RESUME_ONLY_CURRENT_FRAGMENT
+ - `FragmentPagerAdapter(FragmentManager fm)` is deprecated. Used FragmentPagerAdapter(FragmentManager, int) with BEHAVIOR_RESUME_ONLY_CURRENT_FRAGMENT as int.
 
 ### Coding challenge - Navigation drawer (navDrawerChallenge)
 
@@ -180,7 +177,9 @@ Added a Navigation drawer activity from template. From that moment on, many need
 #### Changes from documentation
 
   - `NavigationDrawer` added via XML design tab, with the following warning:
+  
     This operation requires the library com.google.android.material:material:+.
+    
     Accepted, and added as `com.google.android.material.navigation.NavigationView`
 
 
