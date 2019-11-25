@@ -206,3 +206,26 @@ Create an app with a RecyclerView showing a list of words, make this list intera
 ### Coding challenge 1 (recyclerViewChallenge1)
 
 Change the `Settings` menu option to `Reset`, and make it return the list of words to its original state.
+
+### Coding challenge 2 (recyclerViewChallenge2)
+
+We have a click listener for item in the list. Easy but performance hurting.
+
+Challenge: change it to a more efficient solution.
+
+#### Coding challenge 2 - Version 1 (recyclerViewChallenge2v1)
+
+Proposal: set an unique click listener to the adapter.
+
+Source: https://youtu.be/ZBEtt2rNS6M.
+
+##### Key points
+  - Make `WordListAdapter` implements `View.onClickListener` (instead of `WordViewHolder`, which implemented it before).
+  - The implementation of the listener is done in `MainActivity`, and then setted to the private listener of `WordListAdapter`via the public method `WordListAdapter.setOnClickListener(View.OnClickListener listener)`.
+  - You must implement it in `MainActivity` because the listener needs to access private attributes of the class (`mRecyclerview` and `mAdapter`).
+  - As `WordListAdapter` implements the listener, you must implement the method `public void onClick(View v)`. In this case, you simply call the private listener `mListener.onClick(View)` method, which was setted in previuos step.  
+
+#### Coding challenge 2 - Version 2 (recyclerViewChallenge2v2)
+  - `WordListAdapter` doesn't implement `View.onClickListener`, it just has it as a private attribute.
+  - This private attribute is setted in the constructor method.
+  - The implementation will be the same as in version 1, but setted in the constructor call.
