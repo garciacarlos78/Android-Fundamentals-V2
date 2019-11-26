@@ -229,3 +229,7 @@ Source: https://youtu.be/ZBEtt2rNS6M.
   - `WordListAdapter` doesn't implement `View.onClickListener`, it just has it as a private attribute.
   - This private attribute is setted in the constructor method.
   - The implementation will be the same as in version 1, but setted in the constructor call.
+
+#### Homework (recyclerViewHomework)
+
+RecyclerView codelab homework (https://codelabs.developers.google.com/codelabs/android-training-create-recycler-view/index.html?index=..%2F..%2Fandroid-training#10)  
