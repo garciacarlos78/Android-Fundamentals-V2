@@ -1,2 +1,2 @@
-include ':scoreKeeper'
+include ':scoreKeeper', ':scoreKeeperChallenge'
 rootProject.name='Lesson 5'
