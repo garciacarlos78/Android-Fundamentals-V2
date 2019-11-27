@@ -1,6 +1,0 @@
-<resources>
-    <string name="app_name">Launcher Icon</string>
-    <string name="article_title">Android</string>
-    <string name="article_subtitle">Launcher icon</string>
-    <string name="article_text">In this app I will substitute the default launcher icon by a customized launcher icon.</string>
-</resources>
