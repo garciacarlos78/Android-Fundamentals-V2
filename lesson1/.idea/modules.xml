@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Android Developer Fundamentals (Version 2).iml" filepath="$PROJECT_DIR$/Android Developer Fundamentals (Version 2).iml" />
+      <module fileurl="file://$PROJECT_DIR$/basicActivity/basicActivity.iml" filepath="$PROJECT_DIR$/basicActivity/basicActivity.iml" />
+      <module fileurl="file://$PROJECT_DIR$/happybirthday/happybirthday.iml" filepath="$PROJECT_DIR$/happybirthday/happybirthday.iml" />
+      <module fileurl="file://$PROJECT_DIR$/helloConstraints/helloConstraints.iml" filepath="$PROJECT_DIR$/helloConstraints/helloConstraints.iml" />
+      <module fileurl="file://$PROJECT_DIR$/helloToastB/helloToastB.iml" filepath="$PROJECT_DIR$/helloToastB/helloToastB.iml" />
+      <module fileurl="file://$PROJECT_DIR$/helloToastBChallenge/helloToastBChallenge.iml" filepath="$PROJECT_DIR$/helloToastBChallenge/helloToastBChallenge.iml" />
+      <module fileurl="file://$PROJECT_DIR$/helloToastChallenge/helloToastChallenge.iml" filepath="$PROJECT_DIR$/helloToastChallenge/helloToastChallenge.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hellotoast/hellotoast.iml" filepath="$PROJECT_DIR$/hellotoast/hellotoast.iml" />
+      <module fileurl="file://$PROJECT_DIR$/helloworld/helloworld.iml" filepath="$PROJECT_DIR$/helloworld/helloworld.iml" />
+      <module fileurl="file://$PROJECT_DIR$/launcherIcon/launcherIcon.iml" filepath="$PROJECT_DIR$/launcherIcon/launcherIcon.iml" />
+      <module fileurl="file://$PROJECT_DIR$/scrollingChallenge/scrollingChallenge.iml" filepath="$PROJECT_DIR$/scrollingChallenge/scrollingChallenge.iml" />
+      <module fileurl="file://$PROJECT_DIR$/scrollingHomework/scrollingHomework.iml" filepath="$PROJECT_DIR$/scrollingHomework/scrollingHomework.iml" />
+      <module fileurl="file://$PROJECT_DIR$/scrollingtext/scrollingtext.iml" filepath="$PROJECT_DIR$/scrollingtext/scrollingtext.iml" />
+    </modules>
+  </component>
+</project>
