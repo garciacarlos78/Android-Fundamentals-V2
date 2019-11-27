@@ -1,0 +1,2 @@
+include ':scoreKeeper'
+rootProject.name='Lesson 5'
