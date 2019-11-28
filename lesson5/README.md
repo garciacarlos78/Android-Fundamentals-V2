@@ -45,4 +45,17 @@ To change the color of the text inside the `ImagenButton`:
 #### Key points
   - It would be more polite to have the background `State List` with references to drawable resources for each state, instead of having them defined in the same list.
   
-        
+### 5.1.2 - Homework (drawableTest)
+
+Create an app with a battery icon, a minus and a plus button. Each click on plus button fills the battery, and each click on minus button empties it.
+
+#### Steps
+  1. Create the different drawables (7 batteries each one representing one charge level).
+  2. Create a level list drawable with the battery icon.
+  3. Add the drawable and the buttons to the view.
+  4. Add the behaviour to the button clicks.     
+  
+#### Key points
+  - According to https://google-developer-training.github.io/android-developer-fundamentals-course-concepts-v2/unit-2-user-experience/lesson-5-delightful-user-experience/5-1-c-drawables-styles-and-themes/5-1-c-drawables-styles-and-themes.html#drawables, the instruction to set a level is `setLevel(level)`.
+    In the practical, the instruction is `setImageLevel(level)`.
+    
