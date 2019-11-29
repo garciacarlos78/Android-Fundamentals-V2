@@ -57,5 +57,39 @@ Create an app with a battery icon, a minus and a plus button. Each click on plus
   
 #### Key points
   - According to https://google-developer-training.github.io/android-developer-fundamentals-course-concepts-v2/unit-2-user-experience/lesson-5-delightful-user-experience/5-1-c-drawables-styles-and-themes/5-1-c-drawables-styles-and-themes.html#drawables, the instruction to set a level is `setLevel(level)`.
-    In the practical, the instruction is `setImageLevel(level)`.
-    
+    In the practical, the instruction seems to be `setImageLevel(level)`.
+
+## 5.2 - Cards and colors
+
+Codelab from https://codelabs.developers.google.com/codelabs/android-training-cards-and-colors.
+
+### 5.2.1 - Tasks (MaterialMe-Starter)
+
+Task description:
+The MaterialMe app is a mock sports-news app with very poor design implementation. You will fix it up to meet the design guidelines to create a delightful user experience!
+
+Source app (before aplying tasks' instructions): https://github.com/google-developer-training/android-fundamentals-starter-apps-v2/tree/master/MaterialMe-Starter
+
+Considerations:
+  - In this case, `MaterialMe-Starter` is not a module of the `Lesson 5` project, it's a project itself.
+  
+#### Key points
+  - String array initialization from xml file:
+    - Java code: 
+      `String[] sportsList = getResources()
+                                 .getStringArray(R.array.sports_titles);`
+    - strings.xml:
+      `    <string-array name="sports_titles">
+               <item>Baseball</item>
+               ...
+               ...
+               <item>Tennis</item>
+           </string-array>`
+  - Use of *Glide* library to load large images efficiently.
+  - `TypedArray`. Allows to store an array of other XML resources.
+    - Clean up data after using it (to free up memory): `myTypedArray.recycle()`
+  - `ItemTouchHelper` class. Used to define what happens to `RecyclerView` list items on touch actions (swipe, drag'n'drop...).
+    - Common use cases already implemented in `ItemTouchHelper.SimpleCallback`.
+
+#### TO DO
+  - Persistence. When, for example, rotating the device, the data is reset. Avoid this using `onSaveInstanceState`, database or SharedPreferences.    

@@ -9,6 +9,7 @@
           <set>
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/drawableTest" />
+            <option value="$PROJECT_DIR$/materialMe" />
             <option value="$PROJECT_DIR$/scoreKeeper" />
             <option value="$PROJECT_DIR$/scoreKeeperChallenge" />
           </set>
