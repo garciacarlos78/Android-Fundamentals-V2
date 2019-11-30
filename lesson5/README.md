@@ -92,4 +92,32 @@ Considerations:
     - Common use cases already implemented in `ItemTouchHelper.SimpleCallback`.
 
 #### TO DO
-  - Persistence. When, for example, rotating the device, the data is reset. Avoid this using `onSaveInstanceState`, database or SharedPreferences.    
+  - Persistence. When, for example, rotating the device, the data is reset. Avoid this using `onSaveInstanceState`, database or SharedPreferences.
+  
+### 5.2.2 - Coding challenge 1 (MaterialMe-Starter/codingChallenge1)
+
+  - Add real details to the Sport object and pass the details to the DetailActivity.
+  - Implement a way to ensure that the state of the app is persistent across orientation changes.
+
+#### Key points
+  - Persistence added using `onSaveInstanceState`
+  
+#### Steps
+
+Adding real details:
+
+  1. Create a string-array with the details in `res/values/strings.xml`.
+    Don't forget escape apostrophes (\').
+  2. Add a member variable in Sport class to allocate the description. Add it to the contructor and add the getter method.
+  3. Modify MainActivity.initializeData to include these descriptions.
+  4. Add the sport description to the intent in SportsAdapter.ViewHolder.onClick().
+  5. Catch the new data from the intent in DetailActivity.java and set to the TextView.
+    
+Persistence:
+  1. Think about things to save: must save the current state of the list, that is, order and deleted items. We have all of this in member variable `mSportsData`.
+  2. Implement method `MainActivity.onSaveInstance(Bundle outState)`, saving in the `Bundle` the member `mSportsData`.
+  3. Check in `MainActivity.onCreate(Bundle savedInstanceState)` if the input parameter bundle is not null, and recover the data from there (instead of initialize).
+  
+Main difficulties:
+  - `Sport` class must implement `Parcelable` so that you can `putParcelableArrayList` into the bundle. This process is almost authomatic with Android Studio, just write `implements Parcelable` and solve automatically the errors with ctrl-enter.
+  - You cannot simply check if the bundle is not null and then assign the content of the bundle to the member variable and notify the adapter the data changed. The problem seems to be that you're changing the object after having added it to the adapter.       
