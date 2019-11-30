@@ -132,16 +132,16 @@
         "source": "/home/carlos/.gradle/caches/transforms-1/files-1.1/design-27.1.1.aar/3140befab59e44cf5a2f89e7da6df43a/res/drawable-xxhdpi-v4/design_ic_visibility.png"
     },
     {
+        "merged": "/home/carlos/AndroidStudioProjects/fundamentals/lesson5/MaterialMe-Starter/app/build/intermediates/res/merged/debug/drawable-mdpi_ic_reset.png.flat",
+        "source": "/home/carlos/AndroidStudioProjects/fundamentals/lesson5/MaterialMe-Starter/app/build/generated/res/pngs/debug/drawable-mdpi/ic_reset.png"
+    },
+    {
         "merged": "/home/carlos/AndroidStudioProjects/fundamentals/lesson5/MaterialMe-Starter/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_abc_scrubber_control_to_pressed_mtrl_000.png.flat",
         "source": "/home/carlos/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/48eac7ef72ed6f887835ffa4ed27897e/res/drawable-mdpi-v4/abc_scrubber_control_to_pressed_mtrl_000.png"
     },
     {
         "merged": "/home/carlos/AndroidStudioProjects/fundamentals/lesson5/MaterialMe-Starter/app/build/intermediates/res/merged/debug/layout-sw600dp-v13_design_layout_snackbar.xml.flat",
         "source": "/home/carlos/.gradle/caches/transforms-1/files-1.1/design-27.1.1.aar/3140befab59e44cf5a2f89e7da6df43a/res/layout-sw600dp-v13/design_layout_snackbar.xml"
-    },
-    {
-        "merged": "/home/carlos/AndroidStudioProjects/fundamentals/lesson5/MaterialMe-Starter/app/build/intermediates/res/merged/debug/drawable-mdpi_ic_reset.png.flat",
-        "source": "/home/carlos/AndroidStudioProjects/fundamentals/lesson5/MaterialMe-Starter/app/build/generated/res/pngs/debug/drawable-mdpi/ic_reset.png"
     },
     {
         "merged": "/home/carlos/AndroidStudioProjects/fundamentals/lesson5/MaterialMe-Starter/app/build/intermediates/res/merged/debug/layout_abc_dialog_title_material.xml.flat",
@@ -492,12 +492,12 @@
         "source": "/home/carlos/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/48eac7ef72ed6f887835ffa4ed27897e/res/drawable-xxxhdpi-v4/abc_ic_star_half_black_36dp.png"
     },
     {
-        "merged": "/home/carlos/AndroidStudioProjects/fundamentals/lesson5/MaterialMe-Starter/app/build/intermediates/res/merged/debug/layout_design_text_input_password_icon.xml.flat",
-        "source": "/home/carlos/.gradle/caches/transforms-1/files-1.1/design-27.1.1.aar/3140befab59e44cf5a2f89e7da6df43a/res/layout/design_text_input_password_icon.xml"
-    },
-    {
         "merged": "/home/carlos/AndroidStudioProjects/fundamentals/lesson5/MaterialMe-Starter/app/build/intermediates/res/merged/debug/drawable-hdpi_ic_reset.png.flat",
         "source": "/home/carlos/AndroidStudioProjects/fundamentals/lesson5/MaterialMe-Starter/app/build/generated/res/pngs/debug/drawable-hdpi/ic_reset.png"
+    },
+    {
+        "merged": "/home/carlos/AndroidStudioProjects/fundamentals/lesson5/MaterialMe-Starter/app/build/intermediates/res/merged/debug/layout_design_text_input_password_icon.xml.flat",
+        "source": "/home/carlos/.gradle/caches/transforms-1/files-1.1/design-27.1.1.aar/3140befab59e44cf5a2f89e7da6df43a/res/layout/design_text_input_password_icon.xml"
     },
     {
         "merged": "/home/carlos/AndroidStudioProjects/fundamentals/lesson5/MaterialMe-Starter/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_abc_ic_star_half_black_36dp.png.flat",
@@ -688,12 +688,12 @@
         "source": "/home/carlos/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/48eac7ef72ed6f887835ffa4ed27897e/res/drawable-xhdpi-v4/abc_ic_star_black_16dp.png"
     },
     {
-        "merged": "/home/carlos/AndroidStudioProjects/fundamentals/lesson5/MaterialMe-Starter/app/build/intermediates/res/merged/debug/color_abc_hint_foreground_material_dark.xml.flat",
-        "source": "/home/carlos/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/48eac7ef72ed6f887835ffa4ed27897e/res/color/abc_hint_foreground_material_dark.xml"
-    },
-    {
         "merged": "/home/carlos/AndroidStudioProjects/fundamentals/lesson5/MaterialMe-Starter/app/build/intermediates/res/merged/debug/drawable_design_password_eye.xml.flat",
         "source": "/home/carlos/.gradle/caches/transforms-1/files-1.1/design-27.1.1.aar/3140befab59e44cf5a2f89e7da6df43a/res/drawable/design_password_eye.xml"
+    },
+    {
+        "merged": "/home/carlos/AndroidStudioProjects/fundamentals/lesson5/MaterialMe-Starter/app/build/intermediates/res/merged/debug/color_abc_hint_foreground_material_dark.xml.flat",
+        "source": "/home/carlos/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/48eac7ef72ed6f887835ffa4ed27897e/res/color/abc_hint_foreground_material_dark.xml"
     },
     {
         "merged": "/home/carlos/AndroidStudioProjects/fundamentals/lesson5/MaterialMe-Starter/app/build/intermediates/res/merged/debug/layout-v21_notification_template_custom_big.xml.flat",
