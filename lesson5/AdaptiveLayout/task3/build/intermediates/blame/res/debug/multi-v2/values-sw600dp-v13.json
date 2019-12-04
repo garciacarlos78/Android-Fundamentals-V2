@@ -1,0 +1,81 @@
+{
+    "logs": [
+        {
+            "outputFile": "/home/carlos/AndroidStudioProjects/fundamentals/lesson5/AdaptiveLayout/task3/build/intermediates/incremental/mergeDebugResources/merged.dir/values-sw600dp-v13/values-sw600dp-v13.xml",
+            "map": [
+                {
+                    "source": "/home/carlos/.gradle/caches/transforms-2/files-2.1/e445618099ce43d4d038d61d6cf09951/design-27.1.1/res/values-sw600dp-v13/values-sw600dp-v13.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,115,185,256,328,386,444,550,614,677",
+                        "endLines": "2,3,4,5,6,7,8,9,10,14",
+                        "endColumns": "59,69,70,71,57,57,105,63,62,12",
+                        "endOffsets": "110,180,251,323,381,439,545,609,672,854"
+                    },
+                    "to": {
+                        "startLines": "10,11,12,13,14,15,16,17,18,35",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "656,716,786,857,929,987,1045,1151,1215,2306",
+                        "endLines": "10,11,12,13,14,15,16,17,18,38",
+                        "endColumns": "59,69,70,71,57,57,105,63,62,12",
+                        "endOffsets": "711,781,852,924,982,1040,1146,1210,1273,2483"
+                    }
+                },
+                {
+                    "source": "/home/carlos/AndroidStudioProjects/fundamentals/lesson5/AdaptiveLayout/task3/src/main/res/values-sw600dp/integers.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "49",
+                        "endOffsets": "100"
+                    },
+                    "to": {
+                        "startLines": "19",
+                        "startColumns": "4",
+                        "startOffsets": "1278",
+                        "endColumns": "49",
+                        "endOffsets": "1323"
+                    }
+                },
+                {
+                    "source": "/home/carlos/AndroidStudioProjects/fundamentals/lesson5/AdaptiveLayout/task3/src/main/res/values-sw600dp/styles.xml",
+                    "from": {
+                        "startLines": "3,14,22,17",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "160,823,1080,912",
+                        "endLines": "12,15,23,20",
+                        "endColumns": "12,52,52,12",
+                        "endOffsets": "817,906,1164,1074"
+                    },
+                    "to": {
+                        "startLines": "20,30,31,32",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "1328,1986,2066,2147",
+                        "endLines": "29,30,31,34",
+                        "endColumns": "12,79,80,12",
+                        "endOffsets": "1981,2061,2142,2301"
+                    }
+                },
+                {
+                    "source": "/home/carlos/.gradle/caches/transforms-2/files-2.1/66f12a7200af14e0f85c231d9d9cbd07/appcompat-v7-27.1.1/res/values-sw600dp-v13/values-sw600dp-v13.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,124,193,263,337,413,472,543",
+                        "endColumns": "68,68,69,73,75,58,70,67",
+                        "endOffsets": "119,188,258,332,408,467,538,606"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7,8,9",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "100,169,238,308,382,458,517,588",
+                        "endColumns": "68,68,69,73,75,58,70,67",
+                        "endOffsets": "164,233,303,377,453,512,583,651"
+                    }
+                }
+            ]
+        }
+    ]
+}

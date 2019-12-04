@@ -1,0 +1,26 @@
+<resources xmlns:tools="http://schemas.android.com/tools" xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+
+        <!-- set transitions used for entrance and exit of shared elements -->
+        <item name="android:windowSharedElementEnterTransition" tools:ignore="NewApi">@transition/recycler_detail_transition</item>
+        <item name="android:windowSharedElementExitTransition" tools:ignore="NewApi">@transition/recycler_detail_transition</item>
+    </style>
+
+    <style name="SportsDetailText"
+        parent="TextAppearance.AppCompat.Headline"/>
+
+    <style name="SportsTitle"
+        parent="TextAppearance.AppCompat.Display1">
+        <item name="android:textColor">?android:textColorPrimary</item>
+    </style>
+
+    <style name="SportsDetailTitle"
+        parent="TextAppearance.AppCompat.Display3"/>
+
+</resources>
