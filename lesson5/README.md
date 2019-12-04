@@ -245,7 +245,7 @@ Task description: localize the app. Add resources for different locales.
 
 The word 'Soccer' will be 'Football' in any locale but English - United States.
 
-### 5.3.4 - Coding challenge 1 (AdaptiveLayout/codingChallenge1)
+### 5.3.4 - Coding challenge 1 (AdaptiveLayout/codingChallenges)
 
 Base module: *AdaptiveLayout/task3*.
 
@@ -256,4 +256,12 @@ Countries list (not exhaustive): Australia, New Zealand, South Africa, Philippin
 Interesting things:
   - It's not necessary to duplicate all of the string resources, just the changed ones. In this case, it's enough to copy the string-arrays *sports_titles* and *sports-info* (the two ones that have the *soccer* word).
     - For the not duplicated elements, the app uses the default locale strings.
-  - In fact, can be better to duplicate only the required strings: for example, if you copy all of the strings, if you change the app name, you must remember to change it in all of the string resources.
+  - In fact, it can be better to duplicate only the required strings. For example, if you copy all of the strings and you change the app name, you must remember to change it in all of the string resources.
+
+### 5.3.5 - Coding challenge 2 (AdaptiveLayout/codingChallenges)
+
+Base module: in this case, it will be a continuation of *Coding challenge 1*, so the same module *codingChallenges* will implement both challenges.
+
+Challenge description: translate all of the strings into a different language.
+
+Language selected: spanish (Spain).

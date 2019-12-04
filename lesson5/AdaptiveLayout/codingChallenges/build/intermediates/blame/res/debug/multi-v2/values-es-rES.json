@@ -1,0 +1,28 @@
+{
+    "logs": [
+        {
+            "outputFile": "/home/carlos/AndroidStudioProjects/fundamentals/lesson5/AdaptiveLayout/codingChallenges/build/intermediates/incremental/mergeDebugResources/merged.dir/values-es-rES/values-es-rES.xml",
+            "map": [
+                {
+                    "source": "/home/carlos/AndroidStudioProjects/fundamentals/lesson5/AdaptiveLayout/codingChallenges/src/main/res/values-es-rES/strings.xml",
+                    "from": {
+                        "startLines": "64,50,36,22,16,18,19,20,17",
+                        "startColumns": "4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "3679,3153,2595,2211,599,730,784,851,677",
+                        "endLines": "153,62,48,34,16,18,19,20,17",
+                        "endColumns": "19,12,19,19,77,53,66,1358,52",
+                        "endOffsets": "24555,3673,3147,2589,672,779,846,2205,725"
+                    },
+                    "to": {
+                        "startLines": "2,92,105,118,131,132,133,134,135",
+                        "startColumns": "4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,20936,21461,22018,22401,22479,22533,22600,23959",
+                        "endLines": "91,104,117,130,131,132,133,134,135",
+                        "endColumns": "19,12,19,19,77,53,66,1358,52",
+                        "endOffsets": "20931,21456,22013,22396,22474,22528,22595,23954,24007"
+                    }
+                }
+            ]
+        }
+    ]
+}

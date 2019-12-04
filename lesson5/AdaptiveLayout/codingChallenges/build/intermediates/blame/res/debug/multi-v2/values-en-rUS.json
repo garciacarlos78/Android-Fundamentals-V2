@@ -1,0 +1,28 @@
+{
+    "logs": [
+        {
+            "outputFile": "/home/carlos/AndroidStudioProjects/fundamentals/lesson5/AdaptiveLayout/codingChallenges/build/intermediates/incremental/mergeDebugResources/merged.dir/values-en-rUS/values-en-rUS.xml",
+            "map": [
+                {
+                    "source": "/home/carlos/AndroidStudioProjects/fundamentals/lesson5/AdaptiveLayout/codingChallenges/src/main/res/values-en-rUS/strings.xml",
+                    "from": {
+                        "startLines": "49,35,21,7,3,4,5,2",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "3094,2568,1974,1587,107,157,227,55",
+                        "endLines": "129,47,33,19,3,4,5,2",
+                        "endColumns": "19,12,19,19,49,69,1358,51",
+                        "endOffsets": "24686,3088,2562,1968,152,222,1581,102"
+                    },
+                    "to": {
+                        "startLines": "2,83,96,109,122,123,124,125",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,21652,22177,22770,23156,23206,23276,24635",
+                        "endLines": "82,95,108,121,122,123,124,125",
+                        "endColumns": "19,12,19,19,49,69,1358,51",
+                        "endOffsets": "21647,22172,22765,23151,23201,23271,24630,24682"
+                    }
+                }
+            ]
+        }
+    ]
+}

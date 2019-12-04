@@ -1,0 +1,28 @@
+{
+    "logs": [
+        {
+            "outputFile": "/home/carlos/AndroidStudioProjects/fundamentals/lesson5/AdaptiveLayout/codingChallenges/build/intermediates/incremental/mergeDebugResources/merged.dir/values-en-rPH/values-en-rPH.xml",
+            "map": [
+                {
+                    "source": "/home/carlos/AndroidStudioProjects/fundamentals/lesson5/AdaptiveLayout/codingChallenges/src/main/res/values-en-rPH/strings.xml",
+                    "from": {
+                        "startLines": "16,2",
+                        "startColumns": "4,4",
+                        "startOffsets": "442,55",
+                        "endLines": "28,14",
+                        "endColumns": "19,19",
+                        "endOffsets": "1030,436"
+                    },
+                    "to": {
+                        "startLines": "2,15",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,648",
+                        "endLines": "14,27",
+                        "endColumns": "19,19",
+                        "endOffsets": "643,1029"
+                    }
+                }
+            ]
+        }
+    ]
+}
