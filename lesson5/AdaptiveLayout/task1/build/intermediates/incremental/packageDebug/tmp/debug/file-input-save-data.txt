@@ -1,7 +1,0 @@
-#Internal package file, do not edit.
-#Wed Dec 04 18:01:54 CET 2019
-0.baseType=DIRECTORY
-0.base=/home/carlos/AndroidStudioProjects/fundamentals/lesson5/AdaptiveLayout/task1/build/intermediates/transforms/dexMerger/debug/0
-0.path=classes.dex
-0.set=DEX
-count=1
