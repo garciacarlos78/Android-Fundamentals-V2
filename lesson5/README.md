@@ -121,3 +121,94 @@ Persistence:
 Main difficulties:
   - `Sport` class must implement `Parcelable` so that you can `putParcelableArrayList` into the bundle. This process is almost authomatic with Android Studio, just write `implements Parcelable` and solve automatically the errors with ctrl-enter.
   - You cannot simply check if the bundle is not null and then assign the content of the bundle to the member variable and notify the adapter the data changed. The problem seems to be that you're changing the object after having added it to the adapter.       
+  
+### 5.2.3 - Coding challenge 2 (transitionsAndAnimations -- NOT FINISHED)
+
+Coding challenge 2 from https://codelabs.developers.google.com/codelabs/android-training-cards-and-colors/#7.
+
+I tried to change the simple behaviour proposed when touching the android icon (start to a secondary activity, changing the android position with another icon with a transition, always the same change), by a more complex behaviour: randomly change all of the icons' positions, executing a transition.
+
+The app currently do what is supposed to do except when touching the android icon. It changes randomly the icons' order but without a transition.
+
+#### Steps
+  1. Change the minimun SDK from 15 to 21, in order to implement shared element transitions.
+    Alternative: check version where transitions are used:
+      // Check if we're running on Android 5.0 or higher
+      if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
+          // Apply activity transition
+      } else {
+          // Swap without transition
+      }
+  2. Create the drawables (3 shapes and an icon).
+  3. Add the `ImageButtons` to a `GridLayout`.
+  4. Assign the `onClick` actions to the buttons and define them in `MainActivity`.
+  5. Check the correctness with dummy code (a different `Toast` for each `onClick` method).
+  6. Implement the final code of each `onClick` method.
+  
+Square shape: relaunches activity using Explode animation for both enter and exit transitions:
+  1. Add the following item to the style:
+    `<item name="android:windowActivityTransitions">true</item>`
+  2. In the corresponding `onClick` method:
+    - Create the intent to relaunch the same activity.
+    - Indicate in the intent the type of transition (*Explosion* in this case).
+    - Start an exit transition with explosion: `getWindow().setExitTransition(new Explode());`
+    - Relaunch the activity with *transition animation*: `startActivity(intent, ActivityOptions.makeSceneTransitionAnimation((Activity)this).toBundle());`
+  3. In `MainActivity.onCreate()` method:
+    - Check if we have an extra in the intent with the type used to indicate the transition (a class String constant named *TRANSITION_TYPE*).
+    - If we have it, check which kind of transition is.
+    - If is *Explosion* type, set the enter transition with the following instruction: `getWindow().setEnterTransition(new Explode());`
+    
+Ring shape: same as square, but using *Fade* transition.
+  - Same steps as with square, just changing `Explode()` by `Fade()`.
+
+Line shape: starts an in-place animation (a rotation):
+  1. In the corresponding `onClick` method, create an `ObjectAnimator` object, set its parameters, and start it.          
+
+Android icon: starts a secondary activity with a Shared Element Transition swapping the Android block with one of the other blocks.
+  Instead of doing this, I do the following:
+    - When Android block is pressed, the second activity is launched rearranging the 4 buttons randomly.
+    - In order to implement the transition, I will add a new ImageView and I will swap the `GridLayout` containing the four blocs with this `ImageView`.
+    
+  1. Create a seconday activity, copying the XML from the main activity. Copy also the `MainActivity.java` code (for the moment, it will do the same).
+  2. Implement `androidOnClick` on both activities, just launching the other one for the moment, and check if everything works.
+  3. Create a method to randomly change the position. I use a member field, an `ArrayList<String>` which determines the order of the icons. Using `Collections.shuffle(ArrayList<>)` I randomly rearrange the icons.
+  4. Once checked that the previous steps work right, I add the `ImageView` and implement the transition.
+    
+  
+#### TO DO
+  - Make the line shape adjust `ImageButton` in width.
+  - `MainActivity.java` and `SecondaryActivity.java` use the same methods to manage the clicks on the image views. Maybe it could be possible to have the methods in another class and then use them from both activities (instead of having them declared twice, one per activity class).      
+
+### 5.2.4 - Homework (MaterialMe-Starter/homework)
+
+Base module: MaterialMe-Starter/codingChallenge1
+
+Homework from codelabs.developers.google.com/codelabs/android-training-cards-and-colors/#11
+
+#### Steps
+  1. Specify shared element transitions in *styles.xml*
+  2. Create transition resource file
+  3. Change the current `onClick` method to include tha transition.
+    - Create a public constant string in detail activity used to pair the image
+    - Pair the clicked image with the image in the detail activity
+      `ActivityOptionsCompat activityOptionsCompat = 
+      ActivityOptionsCompat.makeSceneTransitionAnimation((Activity) mContext, 
+      new Pair<>(view.findViewById(R.id.sportsImage), DetailActivity.VIEW_NAME_HEADER_IMAGE));`
+    - Start the activity providing the activity options as a bundle
+  4. In the `onCreate` method of `DetailActivity`, pair the image with the constant string defined above.
+    `ViewCompat.setTransitionName(sportsImage, VIEW_NAME_HEADER_IMAGE);`
+  5. \[Optional] Do the same with title and subtitle.
+  
+#### Important things
+
+Include `<changeBounds />` in the `<transitioSet>` block in the transition resource.
+According to the sample, "*changeBounds is used for the TextViews which are shared*", but in the homework I could observe that without that option the transition was nos smooth. It became smooth just after include it in the transition resource file.
+To make sure of this:
+  - I eliminated the transitions in the TextViews and shared just the image using that option. The transition was smooth.
+  - I added again the TextViews and let that option. The transition still was smooth.
+  - I deleted again the *changeBounds* option. The transition became again rough.
+  
+The first time the image is loaded in the secondary activity the transition is quite less smootlhy than following times. In the *Google* sample (https://github.com/android/animation/tree/master/ActivitySceneTransitionBasic), they use *Picasso* instead of *Glide* and they load first the thumbnail and then the full image. Probably doing it that way would improve the first time transition.
+
+#### TO DO
+Try to make the image load as in the Google example, loading first a thumbnail and then the full image.      

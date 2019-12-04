@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Transitions and Animations</string>
+    <string name="ring_icon">Ring icon</string>
+    <string name="line_icon">Line icon</string>
+    <string name="android_icon">Android icon</string>
+    <string name="rectangle_icon">Rectangle icon</string>
+    <string name="secondary_activity_label">Secondary Activity</string>
+    <string name="switch_grid">switchGrid</string>
+</resources>

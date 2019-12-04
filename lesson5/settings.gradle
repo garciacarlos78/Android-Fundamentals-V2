@@ -1,2 +1,2 @@
-include ':scoreKeeper', ':scoreKeeperChallenge', ':drawableTest', ':materialMe'
+include ':scoreKeeper', ':scoreKeeperChallenge', ':drawableTest', ':transitionsAndAnimations'
 rootProject.name='Lesson 5'

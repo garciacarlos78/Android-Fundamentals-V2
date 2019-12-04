@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView_main"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:visibility="visible"
+        app:layout_constraintBottom_toTopOf="@+id/gridlayout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:srcCompat="@tools:sample/avatars[12]" />
+
+    <androidx.gridlayout.widget.GridLayout
+        android:id="@+id/gridlayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:transitionName="switchGrid"
+        android:visibility="visible"
+        app:columnCount="2"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView_main"
+        app:rowCount="2">
+
+
+        <ImageButton
+            android:id="@+id/rectangle"
+            style="@style/MyImageButton"
+            android:contentDescription="@string/rectangle_icon"
+            android:onClick="rectangleOnClick"
+            app:srcCompat="@drawable/rectangle" />
+
+        <ImageButton
+            android:id="@+id/android"
+            style="@style/MyImageButton"
+            android:contentDescription="@string/android_icon"
+            android:onClick="androidOnClick"
+            app:srcCompat="@drawable/ic_android" />
+
+        <ImageButton
+            android:id="@+id/line"
+            style="@style/MyImageButton"
+            android:contentDescription="@string/line_icon"
+            android:onClick="lineOnClick"
+            app:srcCompat="@drawable/line" />
+
+        <ImageButton
+            android:id="@+id/ring"
+            style="@style/MyImageButton"
+            android:contentDescription="@string/ring_icon"
+            android:onClick="ringOnClick"
+            app:srcCompat="@drawable/ring" />
+    </androidx.gridlayout.widget.GridLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

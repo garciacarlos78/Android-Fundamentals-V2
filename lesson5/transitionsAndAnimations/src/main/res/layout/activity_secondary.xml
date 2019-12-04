@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SecondaryActivity">
+
+    <androidx.gridlayout.widget.GridLayout
+        android:id="@+id/gridlayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:transitionName="switchGrid"
+        app:columnCount="2"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView"
+        app:rowCount="2">
+
+
+        <ImageButton
+            android:id="@+id/rectangle_secondary"
+            style="@style/MyImageButton"
+            android:contentDescription="@string/rectangle_icon"
+            android:onClick="rectangleOnClick"
+            app:srcCompat="@drawable/rectangle" />
+
+        <ImageButton
+            android:id="@+id/android_secondary"
+            style="@style/MyImageButton"
+            android:contentDescription="@string/android_icon"
+            android:onClick="androidOnClick"
+            app:srcCompat="@drawable/ic_android" />
+
+        <ImageButton
+            android:id="@+id/line_secondary"
+            style="@style/MyImageButton"
+            android:contentDescription="@string/line_icon"
+            android:onClick="lineOnClick"
+            app:srcCompat="@drawable/line" />
+
+        <ImageButton
+            android:id="@+id/ring_secondary"
+            style="@style/MyImageButton"
+            android:contentDescription="@string/ring_icon"
+            android:onClick="ringOnClick"
+            app:srcCompat="@drawable/ring" />
+    </androidx.gridlayout.widget.GridLayout>
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#D50000"
+        android:transitionName="switchImage"
+        android:visibility="visible"
+        app:layout_constraintBottom_toTopOf="@+id/gridlayout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:srcCompat="@tools:sample/avatars[12]" />
+</androidx.constraintlayout.widget.ConstraintLayout>
