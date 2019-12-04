@@ -211,4 +211,17 @@ To make sure of this:
 The first time the image is loaded in the secondary activity the transition is quite less smootlhy than following times. In the *Google* sample (https://github.com/android/animation/tree/master/ActivitySceneTransitionBasic), they use *Picasso* instead of *Glide* and they load first the thumbnail and then the full image. Probably doing it that way would improve the first time transition.
 
 #### TO DO
-Try to make the image load as in the Google example, loading first a thumbnail and then the full image.      
+Try to make the image load as in the Google example, loading first a thumbnail and then the full image.
+
+## 5.3 - Adaptive Layouts
+
+Codelab from https://codelabs.developers.google.com/codelabs/android-training-adaptive-layouts.
+
+### 5.3.1 - Task 1 (MaterialMe-Starter/task1)
+
+Base module: *MaterialMe-Starter/homework*.
+
+Task description: support landscape orientation. When in landscape, the app will show the sports in two columns instead of a large column.
+
+
+      
