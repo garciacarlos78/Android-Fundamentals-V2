@@ -233,4 +233,10 @@ Column count will be 2 for the tablet in portrait orientation and 3 in landscape
 
 Also created and applied styles to change text size.
 
-      
+### 5.3.3 - Task 3 (MaterialMe-Starter/task3)
+
+Base module: *MaterialMe-Starter/task2*.
+
+Task description: localize the app. Add resources for different locales.
+
+The word 'Soccer' will be 'Football' in any locale but English - United States.       
