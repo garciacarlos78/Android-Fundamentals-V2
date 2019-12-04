@@ -223,5 +223,14 @@ Base module: *MaterialMe-Starter/homework*.
 
 Task description: support landscape orientation. When in landscape, the app will show the sports in two columns instead of a large column.
 
+### 5.3.2 - Task 2 (MaterialMe-Starter/task2)
+
+Base module: *MaterialMe-Starter/task1*.
+
+Task description: add additional resource qualifiers to change the appearence of the app when used on tablets.
+
+Column count will be 2 for the tablet in portrait orientation and 3 in landscape orientation.
+
+Also created and applied styles to change text size.
 
       
