@@ -63,7 +63,7 @@ Create an app with a battery icon, a minus and a plus button. Each click on plus
 
 Codelab from https://codelabs.developers.google.com/codelabs/android-training-cards-and-colors.
 
-### 5.2.1 - Tasks (MaterialMe-Starter)
+### 5.2.1 - Tasks (MaterialMe-Starter/app)
 
 Task description:
 The MaterialMe app is a mock sports-news app with very poor design implementation. You will fix it up to meet the design guidelines to create a delightful user experience!
@@ -213,17 +213,21 @@ The first time the image is loaded in the secondary activity the transition is q
 #### TO DO
 Try to make the image load as in the Google example, loading first a thumbnail and then the full image.
 
-## 5.3 - Adaptive Layouts
+## 5.3 - Adaptive Layouts (AdaptiveLayout)
 
 Codelab from https://codelabs.developers.google.com/codelabs/android-training-adaptive-layouts.
 
-### 5.3.1 - Task 1 (MaterialMe-Starter/task1)
+Tasks, coding challenges and homework as modules of project *AdaptiveLayout*.
+
+Base module: *MaterialMe-Starter/homework*.
+
+### 5.3.1 - Task 1 (AdaptiveLayout/task1)
 
 Base module: *MaterialMe-Starter/homework*.
 
 Task description: support landscape orientation. When in landscape, the app will show the sports in two columns instead of a large column.
 
-### 5.3.2 - Task 2 (MaterialMe-Starter/task2)
+### 5.3.2 - Task 2 (AdaptiveLayout/task2)
 
 Base module: *MaterialMe-Starter/task1*.
 
@@ -233,10 +237,12 @@ Column count will be 2 for the tablet in portrait orientation and 3 in landscape
 
 Also created and applied styles to change text size.
 
-### 5.3.3 - Task 3 (MaterialMe-Starter/task3)
+### 5.3.3 - Task 3 (AdaptiveLayout/task3)
 
-Base module: *MaterialMe-Starter/task2*.
+Base module: *AdaptiveLayout/task2*.
 
 Task description: localize the app. Add resources for different locales.
 
-The word 'Soccer' will be 'Football' in any locale but English - United States.       
+The word 'Soccer' will be 'Football' in any locale but English - United States.
+
+       
