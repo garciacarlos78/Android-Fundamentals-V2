@@ -1,0 +1,2 @@
+include ':UITesting', ':spinnerEspressoTest'
+rootProject.name='Lesson 6 - Testing your UI'

@@ -276,6 +276,7 @@ Homework description: modify the app to use a GridLayoutManager using:
 
 Steps:
   1. Change the RecyclerView LayoutManager from LinearLayoutManager to GridLayoutManager.
-  2. Create 4 values resources with the number of columns for each option (phone and tablet, portrait and landscape).
-  3. Change `mRecyclerView.setLayoutManager(new GridLayoutManager(this, 1));` in MainActivity.onCreate() to use the resource value (*grid_column_count* from *integers.xml*) as the number of columns instead of the fixed value 1.
-    `mRecyclerView.setLayoutManager(new GridLayoutManager(this, getResources().getInteger(R.integer.grid_column_count)));`
+  2. Create 4 value resource files with the number of columns for each option (phone and tablet, portrait and landscape).
+  3. Change `mRecyclerView.setLayoutManager(new GridLayoutManager(this, 1));` in MainActivity.onCreate() to use the resource value *grid_column_count* from *integers.xml* as the number of columns instead of the fixed value 1.
+    `mRecyclerView.setLayoutManager(new GridLayoutManager(this,
+      getResources().getInteger(R.integer.grid_column_count)));`

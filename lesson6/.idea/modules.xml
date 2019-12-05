@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Lesson 6 - Testing your UI.iml" filepath="$PROJECT_DIR$/Lesson 6 - Testing your UI.iml" />
+      <module fileurl="file://$PROJECT_DIR$/UITesting/UITesting.iml" filepath="$PROJECT_DIR$/UITesting/UITesting.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spinnerEspressoTest/spinnerEspressoTest.iml" filepath="$PROJECT_DIR$/spinnerEspressoTest/spinnerEspressoTest.iml" />
+    </modules>
+  </component>
+</project>
