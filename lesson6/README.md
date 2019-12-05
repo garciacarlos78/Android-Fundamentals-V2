@@ -72,8 +72,8 @@ Record a Espresso test to check the change in the options menu. When you tap *Ni
 Recorded test added to module *scoreKeeperChallenge* as *DayToNightNightToDayModeTest.java*.
 
 Main difficulties:
-  - When recording the test, after the assertion, the system hangs when trying to continue performing actions.
-    - Solution: finish the recording after the assertion, and modify the recorded test class to add the following steps.
+  - When recording the test, after the first assertion, the system hangs when trying to continue performing actions. You can just check the first change, after clicking *Night mode*, but not the opposite change.
+    - Solution: finish the recording after the frist assertion, and modify the recorded test class to add the following steps.
 
 Optimizations:
   - In the recorded test class, two different variables are used to find the *Options button* and click on it. As the button is the same, it is not necessary to create a second variable and search for it again.
