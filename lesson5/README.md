@@ -265,3 +265,17 @@ Base module: in this case, it will be a continuation of *Coding challenge 1*, so
 Challenge description: translate all of the strings into a different language.
 
 Language selected: spanish (Spain).
+
+### 5.3.6 - Homework (AdaptiveLayout/homework)
+
+Base module: *RecyclerView* project from https://github.com/google-developer-training/android-fundamentals-apps-v2/tree/master/RecyclerView.
+
+Homework description: modify the app to use a GridLayoutManager using:
+  - For phone: 1 column portrait, 2 columns landscape
+  - For tablet: 2 columns portrait, 3 columns landscape
+
+Steps:
+  1. Change the RecyclerView LayoutManager from LinearLayoutManager to GridLayoutManager.
+  2. Create 4 values resources with the number of columns for each option (phone and tablet, portrait and landscape).
+  3. Change `mRecyclerView.setLayoutManager(new GridLayoutManager(this, 1));` in MainActivity.onCreate() to use the resource value (*grid_column_count* from *integers.xml*) as the number of columns instead of the fixed value 1.
+    `mRecyclerView.setLayoutManager(new GridLayoutManager(this, getResources().getInteger(R.integer.grid_column_count)));`
