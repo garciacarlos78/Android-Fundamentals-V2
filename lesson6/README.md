@@ -18,9 +18,11 @@ Task 1 - Set up Espresso:
     I continue the task steps.
   2. Configure Espresso
     In **build.gradle (Module: UITesting)** `dependencies` section, the following is already included:
-      `testImplementation 'junit:junit:4.12'
+      ```
+       testImplementation 'junit:junit:4.12'
        androidTestImplementation 'com.android.support.test:runner:1.0.1'
-       androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.1'`
+       androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.1'
+       ```
      There are warnings warning about new versions of the two last dependencies. I don't update in case there were incompatibilities with the codelab.
    3. Turn off animations on test device.
      - Turn on USB Debugging
