@@ -34,8 +34,10 @@ Task 2 - Test for Activity switching and text input
   2. Define a class for a test and set up the Activity. Editing the example test rather than adding a new one.
     - Rename class to `ActivityInputOutputTest`
     - Add the following to the top of the class:
-      ```@Rule
-       public ActivityTestRule mActivityRule = new ActivityTestRule<>(MainActivity.class);```
+      ```
+      @Rule
+      public ActivityTestRule mActivityRule = new ActivityTestRule<>(MainActivity.class);
+      ```
    3. Test switching from one Activity to another. Follow the steps in the codelab.
    4. Test text input and output. Follow the steps in the codelab.
    5. Introduce an error to show a test failing. Follow the steps in the codelab.
