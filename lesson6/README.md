@@ -44,6 +44,23 @@ Task 2 - Test for Activity switching and text input
    
 ### 6.1.2 - Task 3 - Test the display of spinner selections (spinnerEspressoTest)
 
-Source: *app* module from https://github.com/google-developer-training/android-fundamentals-apps-v2/tree/master/PhoneNumberSpinnerEspresso, added to current project renamed as *spinnerEspressoTest*.
+Source: *app* module from https://github.com/google-developer-training/android-fundamentals-apps-v2/tree/master/PhoneNumberSpinnerEspresso project, added to current project renamed as *spinnerEspressoTest*.
    
-             
+In this task, all of the steps are already done in the source module.
+
+### 6.1.3 - Task 4 - Record an Espresso test (scoreKeeperChallenge)
+
+For this task, instead of downloading the project linked in the codelab, I import the module corresponding to the coding challenge. The module does the same, but with improved visual interface.
+
+Source module: https://github.com/garciacarlos78/Android-Fundamentals-V2/tree/master/lesson5/scoreKeeperChallenge
+
+The recorded test is the java class ScorePlusMinusTest.java from the package *com.cgrdev.lesson(androidTest)*.
+
+### 6.1.4 - Coding challenge (espressoChallenge1)
+
+Record a Espresso test of using the RecyclerView. The test taps the FAB that adds a new word ("+Word 20") to the list.
+
+Source module: https://github.com/garciacarlos78/Android-Fundamentals-V2/tree/master/lesson4/recyclerViewChallenge1.
+
+Test correctly recorded, test passed.
+Class: `AddWord20.java`, package `com.cgrdev.recyclerview(androidTest)`.

@@ -1,2 +1,2 @@
-include ':UITesting', ':spinnerEspressoTest'
+include ':UITesting', ':spinnerEspressoTest', ':scoreKeeperChallenge', ':espressoChallenge1'
 rootProject.name='Lesson 6 - Testing your UI'

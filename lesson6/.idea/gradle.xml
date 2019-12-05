@@ -9,6 +9,8 @@
           <set>
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/UITesting" />
+            <option value="$PROJECT_DIR$/espressoChallenge1" />
+            <option value="$PROJECT_DIR$/scoreKeeperChallenge" />
             <option value="$PROJECT_DIR$/spinnerEspressoTest" />
           </set>
         </option>
