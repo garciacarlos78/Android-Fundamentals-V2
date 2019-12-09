@@ -51,3 +51,15 @@ Implementation of UI best practices, following the instructions from https://cod
 
 #### Interesting points
   - NetworkInfo is *deprecated*.      
+
+### 7.2.3 - Task 4 - Migrate to AsyncTaskLoader (whoTaskLoader)
+
+Source module: *whoWroteItBP*
+
+Refactor of *AsyncTask* to *AsyncTaskLoader*, following the instructions from https://codelabs.developers.google.com/codelabs/android-training-asynctask-asynctaskloader/index.html?index=..%2F..%2Fandroid-training#5.
+
+Main goal: be able of rotating the screen during a query getting the right result. *AsyncTask* becomes disconnected from then *Activity* and is not able tu update the UI, so we change this *AsyncTask* class to *AsyncTaskLoader* class. 
+
+#### Interesting points
+  -`AsyncTaskLoader` part of Android platform's `Loader` API, deprecated in *Android P (API 28)* in favor of `ViewModels` and `LiveData`.
+  
