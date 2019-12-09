@@ -47,4 +47,7 @@ App creation, following the instructions from https://codelabs.developers.google
 
 Source module: *whoWroteIt*
 
-Implementation of UI best practices, following the instructions from https://codelabs.developers.google.com/codelabs/android-training-asynctask-asynctaskloader/index.html?index=..%2F..%2Fandroid-training#4.      
+Implementation of UI best practices, following the instructions from https://codelabs.developers.google.com/codelabs/android-training-asynctask-asynctaskloader/index.html?index=..%2F..%2Fandroid-training#4.
+
+#### Interesting points
+  - NetworkInfo is *deprecated*.      
