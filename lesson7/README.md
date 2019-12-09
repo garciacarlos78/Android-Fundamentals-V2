@@ -35,4 +35,16 @@ Steps:
   5. Change the `onProgressUpdate` to increment the progress bar percentaje. Now we don't need any parameter to know the increment to apply, we'll inrement always by 5%, so, we change the second parameter of the subclass from `Integer` to `Void`.
   6. As we divide the total amount of millisecons by 20, it can happen that the last increment of the loop lets the progress bar in 95%. To avoid this, in `onPostExecute` we fill the progress bar to 100%.
      
-  
+## 7.2 - AsyncTask and AsyncTaskLoader
+
+Codelab from https://codelabs.developers.google.com/codelabs/android-training-asynctask-asynctaskloader.
+
+### 7.2.1 - Task 2 - Create the app (whoWroteIt)
+
+App creation, following the instructions from https://codelabs.developers.google.com/codelabs/android-training-asynctask-asynctaskloader/index.html?index=..%2F..%2Fandroid-training#3.
+
+### 7.2.2 - Task 3 - Implement UI best practices (whoWroteItBP)
+
+Source module: *whoWroteIt*
+
+Implementation of UI best practices, following the instructions from https://codelabs.developers.google.com/codelabs/android-training-asynctask-asynctaskloader/index.html?index=..%2F..%2Fandroid-training#4.      
