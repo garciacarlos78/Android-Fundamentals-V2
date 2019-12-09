@@ -15,10 +15,47 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="df9483ff-47a3-4ad3-af1d-da34eba9db39" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/scoreKeeperChallenge/src/androidTest/java/com/cgrdev/lesson5/DayToNightNightToDayModeTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lesson7/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lesson7/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lesson7/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lesson7/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lesson7/.idea/runConfigurations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lesson7/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lesson7/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lesson7/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lesson7/gradle.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lesson7/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lesson7/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lesson7/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lesson7/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lesson7/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lesson7/simpleAsyncTask/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lesson7/simpleAsyncTask/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lesson7/simpleAsyncTask/proguard-rules.pro" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lesson7/simpleAsyncTask/src/androidTest/java/com/cgrdev/lesson7/ExampleInstrumentedTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lesson7/simpleAsyncTask/src/main/AndroidManifest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lesson7/simpleAsyncTask/src/main/java/com/cgrdev/lesson7/MainActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lesson7/simpleAsyncTask/src/main/java/com/cgrdev/lesson7/SimpleAsyncTask.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lesson7/simpleAsyncTask/src/main/res/drawable-v24/ic_launcher_foreground.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lesson7/simpleAsyncTask/src/main/res/drawable/ic_launcher_background.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lesson7/simpleAsyncTask/src/main/res/layout/activity_main.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lesson7/simpleAsyncTask/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lesson7/simpleAsyncTask/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lesson7/simpleAsyncTask/src/main/res/mipmap-hdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lesson7/simpleAsyncTask/src/main/res/mipmap-hdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lesson7/simpleAsyncTask/src/main/res/mipmap-mdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lesson7/simpleAsyncTask/src/main/res/mipmap-mdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lesson7/simpleAsyncTask/src/main/res/mipmap-xhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lesson7/simpleAsyncTask/src/main/res/mipmap-xhdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lesson7/simpleAsyncTask/src/main/res/mipmap-xxhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lesson7/simpleAsyncTask/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lesson7/simpleAsyncTask/src/main/res/mipmap-xxxhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lesson7/simpleAsyncTask/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lesson7/simpleAsyncTask/src/main/res/values/colors.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lesson7/simpleAsyncTask/src/main/res/values/strings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lesson7/simpleAsyncTask/src/main/res/values/styles.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lesson7/simpleAsyncTask/src/test/java/com/cgrdev/lesson7/ExampleUnitTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -43,34 +80,17 @@
     </system>
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.5">
-      <split-first>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/README.md">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="726">
-                  <caret line="79" column="4" selection-start-line="79" selection-start-column="4" selection-end-line="79" selection-end-column="4" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-first>
-      <split-second>
-        <leaf>
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/scoreKeeperChallenge/src/androidTest/java/com/cgrdev/lesson5/DayToNightNightToDayModeTest.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="615">
-                  <caret line="99" column="47" selection-start-line="99" selection-start-column="47" selection-end-line="99" selection-end-column="47" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-second>
-    </splitter>
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="9" selection-end-line="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -674,12 +694,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="textInputOutput() - 2019.12.05 at 12h 44m 43s.xml">
-      <configuration name="textInputOutput()" configurationId="AndroidTestRunConfigurationType" />
-    </history-entry>
-    <history-entry file="textInputOutput() - 2019.12.05 at 12h 46m 17s.xml">
-      <configuration name="textInputOutput()" configurationId="AndroidTestRunConfigurationType" />
-    </history-entry>
     <history-entry file="SpinnerSelectionTest - 2019.12.05 at 15h 16m 12s.xml">
       <configuration name="SpinnerSelectionTest" configurationId="AndroidTestRunConfigurationType" />
     </history-entry>
@@ -704,9 +718,15 @@
     <history-entry file="DayToNightNightToDay___ - 2019.12.05 at 17h 56m 22s.xml">
       <configuration name="DayToNightNightToDay..." configurationId="AndroidTestRunConfigurationType" />
     </history-entry>
+    <history-entry file="DayToNightNightToDay___ - 2019.12.05 at 18h 02m 49s.xml">
+      <configuration name="DayToNightNightToDay..." configurationId="AndroidTestRunConfigurationType" />
+    </history-entry>
+    <history-entry file="dayToNightNightToD___() - 2019.12.05 at 18h 04m 02s.xml">
+      <configuration name="dayToNightNightToD...()" configurationId="AndroidTestRunConfigurationType" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="27" width="1280" height="997" extended-state="6" />
+    <frame x="640" y="27" width="640" height="997" extended-state="4" />
     <editor active="true" />
     <layout>
       <window_info id="Captures" order="0" side_tool="true" weight="0.25" />
@@ -722,7 +742,7 @@
       <window_info anchor="bottom" id="Logcat" order="1" />
       <window_info anchor="bottom" id="TODO" order="2" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.329849" />
-      <window_info anchor="bottom" id="Terminal" order="4" sideWeight="0.49837926" weight="0.32868758" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="4" sideWeight="0.49837926" visible="true" weight="0.32868758" />
       <window_info anchor="bottom" id="Event Log" order="5" sideWeight="0.50162077" side_tool="true" weight="0.32908458" />
       <window_info anchor="bottom" id="Version Control" order="6" />
       <window_info anchor="bottom" id="Build" order="7" sideWeight="0.49918962" weight="0.329849" />
@@ -816,17 +836,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
+    <entry file="file://$PROJECT_DIR$/scoreKeeperChallenge/src/androidTest/java/com/cgrdev/lesson5/DayToNightNightToDayModeTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="726">
-          <caret line="79" column="4" selection-start-line="79" selection-start-column="4" selection-end-line="79" selection-end-column="4" />
+        <state relative-caret-position="-143">
+          <caret line="84" column="62" selection-start-line="84" selection-start-column="62" selection-end-line="84" selection-end-column="62" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/scoreKeeperChallenge/src/androidTest/java/com/cgrdev/lesson5/DayToNightNightToDayModeTest.java">
+    <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="615">
-          <caret line="99" column="47" selection-start-line="99" selection-start-column="47" selection-end-line="99" selection-end-column="47" />
+        <state relative-caret-position="165">
+          <caret line="9" selection-end-line="9" />
         </state>
       </provider>
     </entry>
