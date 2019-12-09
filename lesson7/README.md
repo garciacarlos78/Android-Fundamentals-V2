@@ -10,7 +10,7 @@ Codelab from https://codelabs.developers.google.com/codelabs/android-training-cr
 
 *simpleAsyncTask* module include tasks 1, 2 and 3, and the coding challenge.
 
-### Coding challenge
+### 7.1.1 - Coding challenge (simpleAsyncTask)
 
 Update the UI with current sleep time.
 
@@ -20,5 +20,19 @@ Steps:
   2. Change the `Thread.sleep(s)` instruction, that sleeps the thread for the whole random time, by a loop with `Thread.sleep(100)`. In each turn of the loop we increment by 100 the counter and call `publishProgress()`. This way we inform of the progress each 100 ms.
   3. Override `onProgressUpdate(Integer... values` method. This method is called from the loop, with `publishProgress()`. In this method we indicate the current sleeping time in the UI.
   
-   
+### 7.1.2 - Homework (homework)
+
+Base module: *simpleAsyncTask*.
+
+Objective: change the information about the progress by a progress bar.
+
+Steps:
+  1. Add the ProgressBar to the activity_main.xml, defining attributes `progress=0` and `max=100`.
+  2. Add a the following member variable to `SimpleAsyncTask`:
+    `private WeakReference<ProgressBar> mProgressBar;`
+  3. Implement the `onPreExecute()` method to initialize the progress bar to 0.
+  4. We'll fill the ProgressBar in increments of 5%, so we change the loop to reflect this (instead of steps of 100ms, as we did before).
+  5. Change the `onProgressUpdate` to increment the progress bar percentaje. Now we don't need any parameter to know the increment to apply, we'll inrement always by 5%, so, we change the second parameter of the subclass from `Integer` to `Void`.
+  6. As we divide the total amount of millisecons by 20, it can happen that the last increment of the loop lets the progress bar in 95%. To avoid this, in `onPostExecute` we fill the progress bar to 100%.
+     
   
