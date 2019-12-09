@@ -58,8 +58,21 @@ Source module: *whoWroteItBP*
 
 Refactor of *AsyncTask* to *AsyncTaskLoader*, following the instructions from https://codelabs.developers.google.com/codelabs/android-training-asynctask-asynctaskloader/index.html?index=..%2F..%2Fandroid-training#5.
 
-Main goal: be able of rotating the screen during a query getting the right result. *AsyncTask* becomes disconnected from then *Activity* and is not able tu update the UI, so we change this *AsyncTask* class to *AsyncTaskLoader* class. 
+Main goal: be able of rotating the screen during a query getting the right result. *AsyncTask* becomes disconnected from the *Activity* and is not able tu update the UI, so we change this *AsyncTask* class to *AsyncTaskLoader* class. 
 
 #### Interesting points
   -`AsyncTaskLoader` part of Android platform's `Loader` API, deprecated in *Android P (API 28)* in favor of `ViewModels` and `LiveData`.
-  
+
+
+### 7.2.4 - Coding challenge (whoWroteEPUB)
+
+Restrict the result to books downloadable in EPUB format.
+
+Base module: *whoTaskLoader*
+
+Steps:
+  1. Explore Books API and find the corresponding parameter.
+    Parameter: *download*
+    Value: "epub"
+  2. Add the corresponding parameter to the query.
+    In *NetworkUtils.java* class, in *getBookInfo()*  
