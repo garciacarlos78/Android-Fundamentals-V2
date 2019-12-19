@@ -109,3 +109,15 @@ Steps:
 Extra: exception treatment.
 
   15. Return the error string when an exception occurs and show it in the result TextView.
+  
+## 7.3 - Broadcast receivers
+
+Codelab from https://codelabs.developers.google.com/codelabs/android-training-broadcast-receivers
+
+### 7.3.1 - PowerReceiver app (powerReceiver)
+
+App creation, following the instructions from https://codelabs.developers.google.com/codelabs/android-training-broadcast-receivers/index.html?index=..%2F..%2Fandroid-training#1
+
+The PowerReceiver app will register a BroadcastReceiver that displays a toast message when the device is connected or disconnected from power. The app will also send and receive a custom broadcast to display a different toast message.
+
+
