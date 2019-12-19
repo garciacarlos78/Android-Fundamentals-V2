@@ -31,11 +31,14 @@ public class CustomReceiver extends BroadcastReceiver {
                     break;
                 case ACTION_CUSTOM_BROADCAST:
                     toastMessage = context.getString(R.string.custom_broadcast_text);
+                    int randomNumber = intent.getIntExtra("randomInt", 0);
+                    toastMessage += "\nRandom number: " + randomNumber +
+                            "\nSquare: " + String.format("%.2f", Math.sqrt(randomNumber));
                     break;
             }
 
             // Display the toast
-            Toast.makeText(context, toastMessage, Toast.LENGTH_SHORT).show();
+            Toast.makeText(context, toastMessage, Toast.LENGTH_LONG).show();
 
         }
     }

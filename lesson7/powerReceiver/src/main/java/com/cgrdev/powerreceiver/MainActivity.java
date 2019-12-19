@@ -49,6 +49,9 @@ public class MainActivity extends AppCompatActivity {
         // Create new intent
         Intent customBroadcastIntent = new Intent(ACTION_CUSTOM_BROADCAST);
 
+        // Add a random integer (0-1000) to the intent
+        customBroadcastIntent.putExtra("randomInt", (int)(Math.random()*1000));
+
         // Send local broadcast
         LocalBroadcastManager.getInstance(this).sendBroadcast(customBroadcastIntent);
 

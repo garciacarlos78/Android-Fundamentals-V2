@@ -135,5 +135,8 @@ Steps:
   6. Register and unregister the receiver
   7. Implement onReceive in BroadcastReceiver
   
+### 7.3.3 - Homework (powerReceiver)
+  
+Extend the PowerReceiver app to generate a random integer and show its square in the toast of the broadcast receiver.  
   
 

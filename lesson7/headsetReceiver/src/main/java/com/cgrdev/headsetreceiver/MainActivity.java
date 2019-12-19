@@ -16,8 +16,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         // Create the intent filter with filter action
-        IntentFilter filter = new IntentFilter();
-        filter.addAction(Intent.ACTION_HEADSET_PLUG);
+        IntentFilter filter = new IntentFilter(Intent.ACTION_HEADSET_PLUG);
 
         // Register the receiver
         this.registerReceiver(mReceiver, filter);
