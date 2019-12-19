@@ -120,4 +120,20 @@ App creation, following the instructions from https://codelabs.developers.google
 
 The PowerReceiver app will register a BroadcastReceiver that displays a toast message when the device is connected or disconnected from power. The app will also send and receive a custom broadcast to display a different toast message.
 
+### 7.3.2 - Coding challenge - HeadsetReceiver (headsetReceiver)
+
+Coding challenge corresponding to https://codelabs.developers.google.com/codelabs/android-training-broadcast-receivers/index.html?index=..%2F..%2Fandroid-training#5.
+
+Similar to *PowerReceiver* app, but sending the toast when a wired headset is plugged or unplugged.
+
+Steps:
+  1. Create module
+  2. Create the Broadcast Receiver (`HeadsetReceiver`)
+  3. Delete receiver from manifest
+  4. Create a `HeadsetReceiver` object in `MainActivity` as a member variable
+  5. Create intent filter with Intent actions
+  6. Register and unregister the receiver
+  7. Implement onReceive in BroadcastReceiver
+  
+  
 

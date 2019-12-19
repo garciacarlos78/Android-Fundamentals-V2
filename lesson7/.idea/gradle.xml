@@ -8,6 +8,7 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/headsetReceiver" />
             <option value="$PROJECT_DIR$/homework" />
             <option value="$PROJECT_DIR$/powerReceiver" />
             <option value="$PROJECT_DIR$/simpleAsyncTask" />
