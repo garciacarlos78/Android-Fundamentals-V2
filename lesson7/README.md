@@ -104,6 +104,8 @@ Steps:
   11. Make `MainActivity` implement `LoaderManager.LoaderCallbacks<String>`, and implement the required methods.
   12. Create the `WebLoader` in the `onCreateLoader` method.
   13. Put the result of the query in the TextView in the `onLoadFinished` method.
+  14. Reconnect to the loader if it exists in case of device rotation.
 
 Extra: exception treatment.
-  14. Return the error string when an exception occurs and show it in the result TextView.
+
+  15. Return the error string when an exception occurs and show it in the result TextView.

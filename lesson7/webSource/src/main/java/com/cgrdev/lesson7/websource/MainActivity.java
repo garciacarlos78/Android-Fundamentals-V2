@@ -33,6 +33,10 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        // Check if there a loader already exists, to avoid losing information when device rotated
+        if(getSupportLoaderManager().getLoader(0)!=null)
+            getSupportLoaderManager().initLoader(0, null, this);
+
         // Get the EditText from the UI
         mSource = findViewById(R.id.source);
 
