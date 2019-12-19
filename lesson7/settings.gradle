@@ -1,2 +1,2 @@
-include ':simpleAsyncTask', ':homework', ':whoWroteIt', ':whoWroteItBP', ':whoTaskLoader', ':whoWroteEPUB'
+include ':simpleAsyncTask', ':homework', ':whoWroteIt', ':whoWroteItBP', ':whoTaskLoader', ':whoWroteEPUB', ':webSource'
 rootProject.name='Lesson 7 - Background tasks'

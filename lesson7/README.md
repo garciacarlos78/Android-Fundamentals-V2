@@ -75,4 +75,35 @@ Steps:
     Parameter: *download*
     Value: "epub"
   2. Add the corresponding parameter to the query.
-    In *NetworkUtils.java* class, in *getBookInfo()*  
+    In *NetworkUtils.java* class, in *getBookInfo()*
+    
+### 7.2.5 - Homework (webSource)
+
+Homework corresponding to https://codelabs.developers.google.com/codelabs/android-training-asynctask-asynctaskloader/index.html?index=..%2F..%2Fandroid-training#10.
+
+Create an app in which you introduce a URL, select a protocol (http/https), and when you press the button you obtain the source code of the page.   
+
+Steps:
+  1. Create the UI.
+    Main difficulties:
+    - EditText baseline related to spinner.
+      - Solution: it works right when there is content inside. Including the XML attribute `android:entries="@array/spinner_array"` the visibility in the preview is correct.
+    - Spinner content.
+      - Attribute showed in the previous point.
+      - Definition of the adapter in `MainActivity`.
+    - Default selection: the first item in the array. It also avoids no item selection option.
+  2. Get the content when the button is pressed. For the moment, a Log.d will be shown.
+  3. Create an AsynTaskLoader (my class WebLoader).
+  4. Create the *NetworkUtils* class, which will do the connection to the website.
+  5. Modify manifest.xml to include internet permissions. Should have been a previous step.
+  6. Make `MainActivity` implement `LoaderManager.LoaderCallbacks<String>`, to handle the results of the `loadInBackground()` `AsynTaskLoader` method.
+  7. Check correctness of query via Log.d (implemented in *NetworkUtils*).
+  8. Hide keyboard and update TextView when pressed button
+  9. Check connectivity and empty string introduced before calling the AsyncTaskLoader
+  10. Make the query to the TaskLoader in `getSource` method.
+  11. Make `MainActivity` implement `LoaderManager.LoaderCallbacks<String>`, and implement the required methods.
+  12. Create the `WebLoader` in the `onCreateLoader` method.
+  13. Put the result of the query in the TextView in the `onLoadFinished` method.
+
+Extra: exception treatment.
+  14. Return the error string when an exception occurs and show it in the result TextView.

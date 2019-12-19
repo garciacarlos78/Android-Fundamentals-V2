@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Get Web Page Source Code</string>
+    <string name="url_title">Enter URL:</string>
+    <string name="example_url">www.example.com</string>
+    <string name="get_page_source">GET PAGE SOURCE</string>
+    <string name="result_text">Page source will appear here</string>
+    <string name="loading">Loading...</string>
+    <string name="no_network">Please check your network connection and try again.</string>
+    <string name="empty_url">You must introduce a valid URL to search for.</string>
+
+    <!-- Values for the spinner   -->
+    <string-array name="spinner_array">
+        <item>http://</item>
+        <item>https://</item>
+    </string-array>
+</resources>
