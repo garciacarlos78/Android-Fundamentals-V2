@@ -1,0 +1,2 @@
+include ':notifyMe'
+rootProject.name='Lesson 8 - Alarms and schedulers'
