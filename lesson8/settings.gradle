@@ -1,2 +1,2 @@
-include ':notifyMe'
+include ':notifyMe', ':homework'
 rootProject.name='Lesson 8 - Alarms and schedulers'

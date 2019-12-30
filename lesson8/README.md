@@ -15,4 +15,12 @@ Notes:
   - In the instructions, the method `setNotificationButtonState` receives three `Boolean` as arguments. It seems it's enough to pass it three primitive `boolean`.
 
 Coding challenge:
-  - Method to use: `NotificationCompat.Builder setDeleteIntent(PendingIntent intent)`   
+  - Method to use: `NotificationCompat.Builder setDeleteIntent(PendingIntent intent)`
+  
+## 8.2 - Homework (homework)
+
+Source module: *notifyMe*, from 8.1.
+
+Goal: change updated notification to use `InboxStyle` expanded layout instead of `BigPictureStyle`.
+
+Fake string data for each line and for the summary text.     
