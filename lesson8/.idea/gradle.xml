@@ -10,6 +10,7 @@
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/homework" />
             <option value="$PROJECT_DIR$/notifyMe" />
+            <option value="$PROJECT_DIR$/standUp" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />

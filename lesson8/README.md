@@ -17,10 +17,16 @@ Notes:
 Coding challenge:
   - Method to use: `NotificationCompat.Builder setDeleteIntent(PendingIntent intent)`
   
-## 8.2 - Homework (homework)
+## 8.1.1 - Homework (homework)
 
 Source module: *notifyMe*, from 8.1.
 
 Goal: change updated notification to use `InboxStyle` expanded layout instead of `BigPictureStyle`.
 
-Fake string data for each line and for the summary text.     
+Fake string data for each line and for the summary text.
+
+## 8.2 - The alarm manager (standUp)
+
+Codelab from https://codelabs.developers.google.com/codelabs/android-training-alarm-manager
+
+*standUp* module includes tasks 1 and 2.
