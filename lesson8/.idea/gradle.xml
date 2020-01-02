@@ -12,6 +12,7 @@
             <option value="$PROJECT_DIR$/notifyMe" />
             <option value="$PROJECT_DIR$/standUp" />
             <option value="$PROJECT_DIR$/standUpAlarm" />
+            <option value="$PROJECT_DIR$/standUpNext" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ToggleButton
+        android:id="@+id/alarmToggle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textOff="stop alarm"
+        android:textOn="alarm stopped"
+        app:layout_constraintBottom_toTopOf="@+id/showNext"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toggle25min" />
+
+    <Button
+        android:id="@+id/showNext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="showNext"
+        android:text="@string/show_next"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/alarmToggle" />
+
+    <ToggleButton
+        android:id="@+id/toggle15min"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ToggleButton"
+        android:textOff="15 min"
+        android:textOn="15 min running"
+        app:layout_constraintBottom_toTopOf="@+id/toggle25min"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toggle5min" />
+
+    <ToggleButton
+        android:id="@+id/toggle5min"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="5 min"
+        android:textOff="5 min"
+        android:textOn="5 min running"
+        app:layout_constraintBottom_toTopOf="@+id/toggle15min"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ToggleButton
+        android:id="@+id/toggle25min"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ToggleButton"
+        android:textOff="25 min"
+        android:textOn="25 min running"
+        app:layout_constraintBottom_toTopOf="@+id/alarmToggle"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toggle15min" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
