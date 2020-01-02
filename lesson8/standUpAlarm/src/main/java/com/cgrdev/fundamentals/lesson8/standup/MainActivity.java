@@ -45,6 +45,11 @@ public class MainActivity extends AppCompatActivity {
 
         // ------------------ Set the repeating alarm end
 
+        // --------------- Check the state of the alarm when app launched
+        boolean alarmUp = (PendingIntent.getBroadcast(this, NOTIFICATION_ID, notifyIntent, PendingIntent.FLAG_NO_CREATE) != null);
+        alarmToggle.setChecked(alarmUp);
+        // --------------- Check the state of the alarm when app launched end
+
 
         // Add listener
         alarmToggle.setOnCheckedChangeListener(
@@ -52,16 +57,14 @@ public class MainActivity extends AppCompatActivity {
                     @Override
                     public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {
 
-
-
                         // Message to show to the user
                         String toastMessage;
                         if (isChecked) {
 
                             // Constant defining 1 minute
-                            long repeatInterval = AlarmManager.INTERVAL_FIFTEEN_MINUTES/15;
+                            // long repeatInterval = AlarmManager.INTERVAL_FIFTEEN_MINUTES/15;
                             // Constant defining 15 minutes
-                            //long repeatInterval = AlarmManager.INTERVAL_FIFTEEN_MINUTES;
+                            long repeatInterval = AlarmManager.INTERVAL_FIFTEEN_MINUTES;
                             // The time when the alarm will be triggered (current + 15')
                             long triggerTime = SystemClock.elapsedRealtime() + repeatInterval;
 
