@@ -30,3 +30,10 @@ Fake string data for each line and for the summary text.
 Codelab from https://codelabs.developers.google.com/codelabs/android-training-alarm-manager
 
 *standUp* module includes tasks 1 and 2.
+
+### 8.2 - Repeating alarm (standUpAlarm)
+
+Task 3, based on *standUp* module.
+
+Interesting points:
+  - *setInexactRepeating()*: if you don't need precission, it's more resource-efficient because it lets the system bundle alarms from differents apps together. 
