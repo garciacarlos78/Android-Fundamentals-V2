@@ -17,7 +17,7 @@ Notes:
 Coding challenge:
   - Method to use: `NotificationCompat.Builder setDeleteIntent(PendingIntent intent)`
   
-## 8.1.1 - Homework (homework)
+### 8.1.1 - Homework (homework)
 
 Source module: *notifyMe*, from 8.1.
 
@@ -25,20 +25,22 @@ Goal: change updated notification to use `InboxStyle` expanded layout instead of
 
 Fake string data for each line and for the summary text.
 
-## 8.2 - The alarm manager (standUp)
+## 8.2 - The alarm manager
 
 Codelab from https://codelabs.developers.google.com/codelabs/android-training-alarm-manager
 
+### 8.2.1 - Tasks 1-2 - The alarm manager (standUp)
+
 *standUp* module includes tasks 1 and 2.
 
-### 8.2 - Repeating alarm (standUpAlarm)
+### 8.2.2 - Task 3 - Repeating alarm (standUpAlarm)
 
 Task 3, based on *standUp* module.
 
 Interesting points:
   - *setInexactRepeating()*: if you don't need precission, it's more resource-efficient because it lets the system bundle alarms from differents apps together.
   
-### 8.3 - Showing next time alarm (standUpNext)
+### 8.2.3 - Coding challenge - Showing next time alarm (standUpNext)
 
 Coding challenge: add a button that displays a Toast showing the time of the next alarm clock.
 
@@ -55,4 +57,8 @@ Steps:
   3. Implement the functionality to the button
     - Change *notifyIntent* from local variable to member variable, so that we can check if there is an active alarm
     - Change *alarmManager* from local final variable to member not final variable, so that we can call its `getNextAlarmClock()` method.
-      - `getNextAlarmClock()` only returns alarm clocks scheduled using the `setAlarmClock(AlarmManager.AlarmClockInfo, PnedingIntent)` method. Consequently, `alarmManager.setInexactRepeating...` must be changed.    
+      - `getNextAlarmClock()` only returns alarm clocks scheduled using the `setAlarmClock(AlarmManager.AlarmClockInfo, PnedingIntent)` method. Consequently, `alarmManager.setInexactRepeating...` must be changed.
+      
+### 8.2.4 - Homework (wishApp)
+
+Make an app that delivers a notification when the time is 11:11 AM. The screen displays a toggle switch that turns the alarm on and off.
