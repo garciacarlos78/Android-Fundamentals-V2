@@ -13,6 +13,7 @@
             <option value="$PROJECT_DIR$/standUp" />
             <option value="$PROJECT_DIR$/standUpAlarm" />
             <option value="$PROJECT_DIR$/standUpNext" />
+            <option value="$PROJECT_DIR$/wishApp" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />
