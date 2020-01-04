@@ -68,7 +68,7 @@ Make an app that delivers a notification when the time is 11:11 AM. The screen d
 2. Add behaviour on change and check it via Toast
 3. Create the notification and the notification channel (for compatibility with Android 8.0, API level 27). 
 4. Change the Toast in the toggle switch, sending the notification and cancelling it when swithced on or off. Check that it works without predefined time (when clicking the button).
-5. Change the behaviour of the notification, being sent at a specified time (11:11), creating a repeating alarm.
+5. Change the behaviour of the notification, being sent at a specified time (11:11), creating an alarm.
    1. Create the broadcast receiver that receives the broadcast intents from the `AlarmManager`.
    2. Set up the broadcast pending intent.
    3. Set the alarm.
