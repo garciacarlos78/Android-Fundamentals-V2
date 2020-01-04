@@ -69,9 +69,12 @@ Make an app that delivers a notification when the time is 11:11 AM. The screen d
 3. Create the notification and the notification channel (for compatibility with Android 8.0, API level 27). 
 4. Change the Toast in the toggle switch, sending the notification and cancelling it when swithced on or off. Check that it works without predefined time (when clicking the button).
 5. Change the behaviour of the notification, being sent at a specified time (11:11), creating a repeating alarm.
-  1. Create the broadcast receiver that receives the broadcast intents from the `AlarmManager`.
-  2. Set up the broadcast pending intent.
-  3. Set the alarm.
-    Important: it's important to check the current time: if it's past 11:11, you should add a day to the alarm, otherwise the notification would be sent inmediately.
-  4. Check the state of the alarm when app launched.
-    Important: this check should be done after *notifyIntent* is created, but before *notifyPendingIntent* is created. Otherwise, it's always true.  
+   1. Create the broadcast receiver that receives the broadcast intents from the `AlarmManager`.
+   2. Set up the broadcast pending intent.
+   3. Set the alarm.
+   
+      Important: it's important to check the current time: if it's past 11:11, you should add a day to the alarm, otherwise the notification would be sent inmediately.
+     
+   4. Check the state of the alarm when app launched.
+   
+      Important: this check should be done after *notifyIntent* is created, but before *notifyPendingIntent* is created. Otherwise, it's always true.  
