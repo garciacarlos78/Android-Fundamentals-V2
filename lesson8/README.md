@@ -79,11 +79,11 @@ Make an app that delivers a notification when the time is 11:11 AM. The screen d
    
       Important: this check should be done after *notifyIntent* is created, but before *notifyPendingIntent* is created. Otherwise, it's always true.  
 
-## 8.1 - JobScheduler
+## 8.3 - JobScheduler
 
 Codelab from https://codelabs.developers.google.com/codelabs/android-training-job-scheduler
 
-### 8.1.1 - Tasks - App Notification Scheduler (notificationScheduler)
+### 8.3.1 - Tasks - App Notification Scheduler (notificationScheduler)
 
 App overview: https://codelabs.developers.google.com/codelabs/android-training-job-scheduler/#1
 
