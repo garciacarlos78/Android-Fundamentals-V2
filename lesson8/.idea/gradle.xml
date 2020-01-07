@@ -9,6 +9,7 @@
           <set>
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/homework" />
+            <option value="$PROJECT_DIR$/notificationScheduler" />
             <option value="$PROJECT_DIR$/notifyMe" />
             <option value="$PROJECT_DIR$/standUp" />
             <option value="$PROJECT_DIR$/standUpAlarm" />

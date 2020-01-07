@@ -1,2 +1,2 @@
-include ':notifyMe', ':homework', ':standUp', ':standUpAlarm', ':standUpNext', ':wishApp'
+include ':notifyMe', ':homework', ':standUp', ':standUpAlarm', ':standUpNext', ':wishApp', ':notificationScheduler'
 rootProject.name='Lesson 8 - Alarms and schedulers'

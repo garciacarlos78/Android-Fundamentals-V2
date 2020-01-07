@@ -78,3 +78,17 @@ Make an app that delivers a notification when the time is 11:11 AM. The screen d
    4. Check the state of the alarm when app launched.
    
       Important: this check should be done after *notifyIntent* is created, but before *notifyPendingIntent* is created. Otherwise, it's always true.  
+
+## 8.1 - JobScheduler
+
+Codelab from https://codelabs.developers.google.com/codelabs/android-training-job-scheduler
+
+### 8.1.1 - Tasks - App Notification Scheduler (notificationScheduler)
+
+App overview: https://codelabs.developers.google.com/codelabs/android-training-job-scheduler/#1
+
+Steps:
+  - Task 1: Implement a JobService
+  
+Notes:
+  - In task 1, the method `createNotificationChannel()`  it's supposed to be created inside the `onStartJob()` method, but that's not allowed. The method has to be implemented just inside the class, but outside the method.
