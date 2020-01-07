@@ -89,6 +89,7 @@ App overview: https://codelabs.developers.google.com/codelabs/android-training-j
 
 Steps:
   - Task 1: Implement a JobService
+  - Task 2: Implement the job conditions (JobInfo)
   
 Notes:
   - In task 1, the method `createNotificationChannel()`  it's supposed to be created inside the `onStartJob()` method, but that's not allowed. The method has to be implemented just inside the class, but outside the method.
