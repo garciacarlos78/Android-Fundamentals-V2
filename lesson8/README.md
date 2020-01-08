@@ -93,3 +93,32 @@ Steps:
   
 Notes:
   - In task 1, the method `createNotificationChannel()`  it's supposed to be created inside the `onStartJob()` method, but that's not allowed. The method has to be implemented just inside the class, but outside the method.
+  
+### 8.3.2 - Coding challenge (notificationScheduler)
+
+Call `jobFinished()` after the task is complete.
+
+To do this challenge, I'll add a new button to the screen that will start the `AsyncTask`.
+
+Instead of sleep for 5 seconds (coding challenge), I'll add a SeekBar to let the user choose how much time to sleep.
+
+Steps:
+  1. Modify activity_main.xml to add the new UI elements.
+  2. Add the listener to the SeekBar that changes the amount of sleep time
+  3. Implement the JobService, `AsyncTaskJobService` in my case.
+    As it is a long-running task, it must be offloaded to a different thread, and therefore return true and call `jobFinished()` explicitly in that thread.
+  4. Implement the job conditions (JobInfo)
+    
+    
+  
+  
+  
+  3. Add the method to the `onClick` attribute of the button that starts the `AsyncTask` (`scheduleAsyncTask`).
+  4. Implement a `JobService` that starts an `AsyncTask`.
+    JobService implemented: `AsyncTaskJobService`
+  5. Copy the content of `scheduleJob()` to `scheduleAsyncTask`. Modify the necessary code to launch an `AsyncTaskJobService` instead of a `NotificationJobService`.
+  
+Version 1: sleep for a concrete amount of time
+Version 2: sleep for the amount of time selected by the user in the UI
+
+  

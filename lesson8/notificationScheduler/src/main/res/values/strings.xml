@@ -8,7 +8,7 @@
     <string name="wifi">Wifi</string>
     <string name="schedule_job">Schedule Job</string>
     <string name="cancel_jobs">Cancel Jobs</string>
-    <string name="job_scheduld_toast">Job Scheduled, job will run when he constraints are met.</string>
+    <string name="job_scheduled_toast">Job Scheduled, job will run when he constraints are met.</string>
     <string name="set_constraint_toast">Please set at least one constraint</string>
     <string name="jobs_cancelled_toast">Jobs cancelled</string>
     <string name="requires">Requires:</string>
@@ -16,4 +16,9 @@
     <string name="device_charging">Device Charging</string>
     <string name="override_deadline">Override Deadline: </string>
     <string name="not_set">Not Set</string>
+    <string name="time_to_sleep">Time to sleep:</string>
+    <string name="schedule_asynctask">Schedule AsyncTask</string>
+    <string name="cancel_asynctask">Cancel AsyncTask</string>
+    <string name="async_task_scheduled">AsynTask scheduled, it will run when constraints are met.</string>
+    <string name="async_task_cancelled">Async Task cancelled!</string>
 </resources>
