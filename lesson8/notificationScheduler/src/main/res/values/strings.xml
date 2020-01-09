@@ -19,6 +19,8 @@
     <string name="time_to_sleep">Time to sleep:</string>
     <string name="schedule_asynctask">Schedule AsyncTask</string>
     <string name="cancel_asynctask">Cancel AsyncTask</string>
-    <string name="async_task_scheduled">AsynTask scheduled, it will run when constraints are met.</string>
+    <string name="async_task_scheduled">Async Task scheduled, it will run when constraints are met.</string>
     <string name="async_task_cancelled">Async Task cancelled!</string>
+    <string name="time_not_set_message">Please, specify the amount of time to sleep</string>
+    <string name="job_failed_message">Job failed Rescheduled to run again when conditions are met.</string>
 </resources>

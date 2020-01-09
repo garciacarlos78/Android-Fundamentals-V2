@@ -98,27 +98,16 @@ Notes:
 
 Call `jobFinished()` after the task is complete.
 
-To do this challenge, I'll add a new button to the screen that will start the `AsyncTask`.
+Coding challenge instructions: https://codelabs.developers.google.com/codelabs/android-training-job-scheduler/#5
 
-Instead of sleep for 5 seconds (coding challenge), I'll add a SeekBar to let the user choose how much time to sleep.
+#### Considerations
 
-Steps:
-  1. Modify activity_main.xml to add the new UI elements.
-  2. Add the listener to the SeekBar that changes the amount of sleep time
-  3. Implement the JobService, `AsyncTaskJobService` in my case.
-    As it is a long-running task, it must be offloaded to a different thread, and therefore return true and call `jobFinished()` explicitly in that thread.
-  4. Implement the job conditions (JobInfo)
-    
-    
-  
-  
-  
-  3. Add the method to the `onClick` attribute of the button that starts the `AsyncTask` (`scheduleAsyncTask`).
-  4. Implement a `JobService` that starts an `AsyncTask`.
-    JobService implemented: `AsyncTaskJobService`
-  5. Copy the content of `scheduleJob()` to `scheduleAsyncTask`. Modify the necessary code to launch an `AsyncTaskJobService` instead of a `NotificationJobService`.
-  
-Version 1: sleep for a concrete amount of time
-Version 2: sleep for the amount of time selected by the user in the UI
+  - I do this coding challenge as an extension of *notificationScheduler* module, adding new capabilities.
+  - Instead of sleeping for 5 seconds, as suggested, I include a new seek bar so that the user can choose how much time to sleep, between 1 and 100 seconds.
+  - The conditions used for the task app are also used for this async task.
+  - The app will show a Toast when the async task starts, every 5 seconds informing the progress, and when task is finished.
+  - 3 new elements added to the UI: time to sleep seek bar, start async task button and stop async task button.
 
-  
+#### Pending
+
+  - Differentiate when the AsyncTask has been stopped due to lack of conditions or because the user clicked the cancel button. At this moment, even if the task is cancelled due to the user clicked the cancel button, the toast says that the job will be rescheduled.

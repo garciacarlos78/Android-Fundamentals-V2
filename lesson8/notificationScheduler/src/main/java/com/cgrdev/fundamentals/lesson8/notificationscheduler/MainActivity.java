@@ -1,17 +1,18 @@
 package com.cgrdev.fundamentals.lesson8.notificationscheduler;
 
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.app.job.JobInfo;
 import android.app.job.JobScheduler;
 import android.content.ComponentName;
 import android.os.Bundle;
+import android.os.PersistableBundle;
 import android.view.View;
 import android.widget.RadioGroup;
 import android.widget.SeekBar;
 import android.widget.Switch;
 import android.widget.TextView;
 import android.widget.Toast;
+
+import androidx.appcompat.app.AppCompatActivity;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -186,9 +187,8 @@ public class MainActivity extends AppCompatActivity {
 
         Toast.makeText(this, "AsyncTask called\nSleeping for " + sleepTime + " seconds", Toast.LENGTH_SHORT).show();
 
-        RadioGroup networkOptions = findViewById(R.id.networkOptions);
-
         // Get selected network ID
+        RadioGroup networkOptions = findViewById(R.id.networkOptions);
         int selectedNetworkID = networkOptions.getCheckedRadioButtonId();
 
         // Default network option
@@ -207,14 +207,23 @@ public class MainActivity extends AppCompatActivity {
                 break;
         }
 
-        // Create JobInfo.Builder object
-        // Here is passed the selected network option as a condition to trigger the job
+        // ComponentName of the service that contains the AsyncTask
         ComponentName serviceName = new ComponentName(getPackageName(), AsyncTaskJobService.class.getName());
+
+        // PersistableBundle to pass the time to sleep to the async task
+        PersistableBundle bundle = new PersistableBundle();
+        bundle.putInt("time", sleepTime);
+
+        // Create JobInfo.Builder object
+        // Here are passed the conditions to trigger the job
         JobInfo.Builder builder = new JobInfo.Builder(TASK_JOB_ID, serviceName)
+                // Set network condition
                 .setRequiredNetworkType(selectedNetworkOption)
                 // Set constraints based on the switches selections
                 .setRequiresDeviceIdle(mDeviceIdleSwitch.isChecked())
-                .setRequiresCharging(mDeviceChargingSwitch.isChecked());
+                .setRequiresCharging(mDeviceChargingSwitch.isChecked())
+                // Pass bundle with time to sleep
+                .setExtras(bundle);
 
         // Initialize JobScheduler
         mTaskScheduler = (JobScheduler) getSystemService(JOB_SCHEDULER_SERVICE);
@@ -222,12 +231,12 @@ public class MainActivity extends AppCompatActivity {
         // Variables to check the seek bar value
         int seekBarInteger = mSeekBar.getProgress();
         boolean seekBarSet = seekBarInteger > 0;
+        boolean timeSeekBarSet = sleepTime > 0;
 
         // Set deadline value in case it exists (parameter should be passed in ms, that's why multiply by 1000)
         if (seekBarSet) {
             builder.setOverrideDeadline(seekBarInteger * 1000);
         }
-
 
         // Boolean to check whether there is a selected constraint
         boolean constraintSet =
@@ -237,12 +246,17 @@ public class MainActivity extends AppCompatActivity {
                         || seekBarSet ;
 
         if (constraintSet) {
-            // Create the JobInfo object and pass it to the JobScheduler object
-            JobInfo myJobInfo = builder.build();
-            mTaskScheduler.schedule(myJobInfo);
 
-            // Let the user know the job has been scheduled
-            Toast.makeText(this, R.string.async_task_scheduled, Toast.LENGTH_SHORT).show();
+            // Check if there is an amount of time to sleep selected
+            if (sleepTime == 0) {
+                Toast.makeText(this, R.string.time_not_set_message, Toast.LENGTH_SHORT).show();
+            } else {
+                // Create the JobInfo object and pass it to the JobScheduler object
+                JobInfo myJobInfo = builder.build();
+                mTaskScheduler.schedule(myJobInfo);
+                // Let the user know the job has been scheduled
+                Toast.makeText(this, R.string.async_task_scheduled, Toast.LENGTH_SHORT).show();
+            }
 
         } else {
             Toast.makeText(this, R.string.set_constraint_toast, Toast.LENGTH_SHORT).show();
