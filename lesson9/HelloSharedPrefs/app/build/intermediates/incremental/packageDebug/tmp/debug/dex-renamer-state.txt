@@ -1,4 +1,0 @@
-#Thu Jan 09 16:31:51 CET 2020
-base.0=/home/carlos/AndroidStudioProjects/fundamentals/lesson9/HelloSharedPrefs/app/build/intermediates/dex/debug/mergeDexDebug/out/classes.dex
-path.0=classes.dex
-renamed.0=classes.dex

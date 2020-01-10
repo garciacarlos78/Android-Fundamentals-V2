@@ -35,4 +35,11 @@ limitations under the License. -->
 
     <!-- Button label for Reset button -->
     <string name="reset_button">Reset</string>
+    <string name="settings_label">Settings</string>
+    <string name="discarding_count">Discarding Count</string>
+    <string name="saving_count">Saving Count</string>
+    <string name="discarding_background_color">Discarding Background Color</string>
+    <string name="saving_background_color">Saving Background Color</string>
+    <string name="current_count">Current count:</string>
+    <string name="save_changes">Save changes</string>
 </resources>

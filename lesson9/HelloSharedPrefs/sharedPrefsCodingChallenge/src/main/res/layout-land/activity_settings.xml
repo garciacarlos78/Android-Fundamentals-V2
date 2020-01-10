@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SettingsActivity">
+
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:entries="@array/colorsList"
+        app:layout_constraintStart_toEndOf="@+id/textView4"
+        app:layout_constraintTop_toBottomOf="@id/currentColor" />
+
+    <ToggleButton
+        android:id="@+id/countToggle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="72dp"
+        android:layout_marginLeft="72dp"
+        android:textOff="@string/discarding_count"
+        android:textOn="@string/saving_count"
+        app:layout_constraintBaseline_toBaselineOf="@+id/textView"
+        app:layout_constraintStart_toEndOf="@+id/textView" />
+
+    <ToggleButton
+        android:id="@+id/colorToggle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:textOff="@string/discarding_background_color"
+        android:textOn="@string/saving_background_color"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/countToggle"
+        app:layout_constraintTop_toBottomOf="@+id/currentCount" />
+
+    <TextView
+        android:id="@+id/currentColor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="@string/current_color"
+        app:layout_constraintStart_toStartOf="@+id/colorToggle"
+        app:layout_constraintTop_toBottomOf="@+id/colorToggle" />
+
+
+    <TextView
+        android:id="@+id/currentCount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginLeft="32dp"
+        android:text="@string/current_count"
+        app:layout_constraintStart_toStartOf="@+id/countToggle"
+        app:layout_constraintTop_toBottomOf="@+id/countToggle" />
+
+    <Button
+        android:id="@+id/resetButon"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginLeft="32dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginRight="32dp"
+        android:onClick="resetPreferences"
+        android:text="@string/reset_button"
+        app:layout_constraintEnd_toStartOf="@+id/saveButton"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/spinner" />
+
+    <Button
+        android:id="@+id/saveButton"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginLeft="32dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginRight="32dp"
+        android:onClick="saveSettings"
+        android:text="@string/save_changes"
+        app:layout_constraintBaseline_toBaselineOf="@+id/resetButon"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/resetButon" />
+
+    <TextView
+        android:id="@+id/textView"
+        style="@style/TextAppearance.AppCompat.Subhead"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="24dp"
+        android:text="@string/current_saved_preferences"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tvSavedCount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:text="@string/saved_count"
+        app:layout_constraintStart_toStartOf="@+id/textView"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <TextView
+        android:id="@+id/tvSavedColor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="@string/saved_color"
+        app:layout_constraintStart_toStartOf="@+id/tvSavedCount"
+        app:layout_constraintTop_toBottomOf="@+id/tvSavedCount" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="@string/preferred_background_color"
+        app:layout_constraintEnd_toStartOf="@+id/spinner"
+        app:layout_constraintStart_toStartOf="@+id/currentColor"
+        app:layout_constraintTop_toBottomOf="@+id/currentColor" />
+
+</android.support.constraint.ConstraintLayout>
