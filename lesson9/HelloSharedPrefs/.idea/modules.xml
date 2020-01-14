@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/HelloSharedPrefs.iml" filepath="$PROJECT_DIR$/HelloSharedPrefs.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/appWithSettings/appWithSettings.iml" filepath="$PROJECT_DIR$/appWithSettings/appWithSettings.iml" />
       <module fileurl="file://$PROJECT_DIR$/sharedPrefsCodingChallenge/sharedPrefsCodingChallenge.iml" filepath="$PROJECT_DIR$/sharedPrefsCodingChallenge/sharedPrefsCodingChallenge.iml" />
       <module fileurl="file://$PROJECT_DIR$/sharedPrefsHomework/sharedPrefsHomework.iml" filepath="$PROJECT_DIR$/sharedPrefsHomework/sharedPrefsHomework.iml" />
     </modules>

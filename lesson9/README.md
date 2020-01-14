@@ -58,4 +58,12 @@ Key points:
 
 Codelab from https://codelabs.developers.google.com/codelabs/android-training-adding-settings-to-app
 
-                                   
+### 9.2.1 - Task 1 - Add a switch setting to an app (HelloSharedPrefs/appWithSettings)
+
+Task 1: https://codelabs.developers.google.com/codelabs/android-training-adding-settings-to-app/#2.
+
+Key points:
+  - Codelab suggested implementation: 'com.android.support:preference-v7:26.1.0'
+    Implementation needed using AndroidX: 'androidx.preference:preference:1.1.0'
+  - Best practice: use a regular *Activity* that hosts a `PreferenceFragment`. 
+  -`SettingsFragment` will be added to the existing `SettingsActivity`, making it easy to add or remove a `Fragment` while the `Activity` is running.                                    

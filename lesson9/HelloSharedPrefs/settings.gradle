@@ -1,1 +1,1 @@
-include ':app', ':sharedPrefsCodingChallenge', ':sharedPrefsHomework'
+include ':app', ':sharedPrefsCodingChallenge', ':sharedPrefsHomework', ':appWithSettings'
