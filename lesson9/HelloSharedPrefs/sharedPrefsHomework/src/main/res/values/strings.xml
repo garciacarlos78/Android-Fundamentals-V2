@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Score Keeper SharedPrefs</string>
+    <string name="app_name">Score Keeper (sharedPrefsHomework)</string>
     <string name="minus_button">Minus Button</string>
     <string name="team_1">Team 1</string>
     <string name="initial_score">0</string>

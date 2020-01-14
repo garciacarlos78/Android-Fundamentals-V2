@@ -54,3 +54,8 @@ Key points:
   - The recovery of the SharedPreferences data and show in the UI is moved from `onCreate()` to `onStart()`. This way when preferences are reset with the reset button you can call `onStart()` to update the UI.
   - The saving of the SharedPreferences is done in `onPause()`. Doing it this way, during the normal app lifecycle the preferences are always saved. But, if you stop the app directly from Android Studio you lose the data (the app doesn't goes through the `onPause()` state).   
                                    
+## 9.2 - App settings
+
+Codelab from https://codelabs.developers.google.com/codelabs/android-training-adding-settings-to-app
+
+                                   
