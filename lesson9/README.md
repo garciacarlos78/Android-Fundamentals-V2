@@ -35,4 +35,22 @@ Steps:
   
 Key points:
   - It is not possible to use a switch statement to check the color if you want that part of code to be independent from the xml definition.
-    For using a switch statement, you need static values to compare with. Imagine you use static values here; if you change one of the colors of the buttons for the background, this switch statement will fall into default case. If you don't want to have to remember to change this part of code if you change the color of the buttons, you have to check the buttons colors inside the code.                            
+    For using a switch statement, you need static values to compare with. Imagine you use static values here; if you change one of the colors of the buttons for the background, this switch statement will fall into default case. If you don't want to have to remember to change this part of code if you change the color of the buttons, you have to check the buttons colors inside the code.
+
+### 9.1.3 - Homework (HelloSharedPrefs/sharedPrefsHomework)
+
+Base module: *scoreKeeperChallenge* (https://github.com/garciacarlos78/Android-Fundamentals-V2/tree/master/lesson5/scoreKeeperChallenge)
+
+Aim: replace saved instance state with shared preferences. Add a **Reset** button that resets the score values to 0 and clears shared preferences.
+
+Steps:
+  1. Initialize preferences.
+  2. Save preferences in onPause(). This will substitute `onSaveInstanceState()` method, we no longer save state but SharedPreferences.
+  3. Restore preferences in `onStart()`. Remove instance state recovery from `onCreate()`.
+  4. Modify UI to add *Reset* button.
+  5. Implement method to reset the scores.
+  
+Key points:
+  - The recovery of the SharedPreferences data and show in the UI is moved from `onCreate()` to `onStart()`. This way when preferences are reset with the reset button you can call `onStart()` to update the UI.
+  - The saving of the SharedPreferences is done in `onPause()`. Doing it this way, during the normal app lifecycle the preferences are always saved. But, if you stop the app directly from Android Studio you lose the data (the app doesn't goes through the `onPause()` state).   
+                                   
