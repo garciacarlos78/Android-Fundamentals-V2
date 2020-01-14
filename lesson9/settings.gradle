@@ -1,2 +1,1 @@
-include ':app'
-rootProject.name='Lesson 9 - Preferences and settings'
+include ':helloSharedPrefs', ':sharedPrefsCodingChallenge', ':sharedPrefsHomework', ':appWithSettings'

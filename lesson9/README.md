@@ -8,15 +8,15 @@ Codelabs from *Android Developer Fundamentals (Version 2)* - Unit 4: Saving User
 
 Codelab from https://codelabs.developers.google.com/codelabs/android-training-shared-preferences
 
-### 9.1.1 - Tasks (HelloSharedPrefs/app)
+### 9.1.1 - Tasks (helloSharedPrefs)
 
-The folder *HelloSharedPrefs* includes the full project downloaded from https://github.com/google-developer-training/android-fundamentals-starter-apps-v2/tree/master/HelloSharedPrefs.
+Full project downloaded from https://github.com/google-developer-training/android-fundamentals-starter-apps-v2/tree/master/HelloSharedPrefs.
 
 This project is the base project to which are applied tasks from the  codelab.
 
 Updated Android Gradle plugin from version 3.1.2 to version 3.5.3 and Gradle to version 5.4.1.
 
-### 9.1.2 - Coding challenge (HelloSharedPrefs/sharedPrefsCodingChallenge)
+### 9.1.2 - Coding challenge (sharedPrefsCodingChallenge)
 
 **Challenge:** Modify the HelloSharedPrefs app so that instead of automatically saving the state to the preferences file, add a second activity to change, reset, and save those preferences. Add a button to the app named Settings to launch that activity. Include toggle buttons and spinners to modify the preferences, and Save and Reset buttons for saving and clearing the preferences.
 
@@ -37,7 +37,7 @@ Key points:
   - It is not possible to use a switch statement to check the color if you want that part of code to be independent from the xml definition.
     For using a switch statement, you need static values to compare with. Imagine you use static values here; if you change one of the colors of the buttons for the background, this switch statement will fall into default case. If you don't want to have to remember to change this part of code if you change the color of the buttons, you have to check the buttons colors inside the code.
 
-### 9.1.3 - Homework (HelloSharedPrefs/sharedPrefsHomework)
+### 9.1.3 - Homework (sharedPrefsHomework)
 
 Base module: *scoreKeeperChallenge* (https://github.com/garciacarlos78/Android-Fundamentals-V2/tree/master/lesson5/scoreKeeperChallenge)
 
@@ -58,7 +58,7 @@ Key points:
 
 Codelab from https://codelabs.developers.google.com/codelabs/android-training-adding-settings-to-app
 
-### 9.2.1 - Task 1 - Add a switch setting to an app (HelloSharedPrefs/appWithSettings)
+### 9.2.1 - Task 1 - Add a switch setting to an app (appWithSettings)
 
 Task 1: https://codelabs.developers.google.com/codelabs/android-training-adding-settings-to-app/#2.
 
