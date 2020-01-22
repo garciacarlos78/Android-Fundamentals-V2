@@ -66,4 +66,34 @@ Key points:
   - Codelab suggested implementation: 'com.android.support:preference-v7:26.1.0'
     Implementation needed using AndroidX: 'androidx.preference:preference:1.1.0'
   - Best practice: use a regular *Activity* that hosts a `PreferenceFragment`. 
-  -`SettingsFragment` will be added to the existing `SettingsActivity`, making it easy to add or remove a `Fragment` while the `Activity` is running.                                    
+  -`SettingsFragment` will be added to the existing `SettingsActivity`, making it easy to add or remove a `Fragment` while the `Activity` is running.
+  
+### 9.2.2 - Task 2 - Use the Settings Activity template (droidCafeWithSettings)
+
+Task 2: https://codelabs.developers.google.com/codelabs/android-training-adding-settings-to-app/#3.
+
+Base module: https://github.com/google-developer-training/android-fundamentals-apps-v2/tree/master/DroidCafeOptionsUp.
+
+Migrated to AndroidX and tested.
+
+The current Settings Activity template does not match the template shown in the task, but it's still possible to do the task.
+
+Instead of changing the "Data & sync" settings, I will add a new "Account" settings.
+
+**Note:** followed the steps as indicated in the task, when the app runs on a tablet emulator it does not take advantage of the extra space, the preferences are shown as in a phone. Must be investigated.
+
+Steps:
+  1. Create a new preferences XML resource (*account_preferences.xml*).
+  2. Add the corresponding string arrays in *arrays.xml*, for the text to show and for the values (*market_entries* and *market_values*).
+  3. Create a ListPreference item in the *account_preferences.xml* resource.
+  4. Create an icon (New --> Image Asset --> Action bar and tab icons)
+  5. Create *AccountFragment* class in *SettingsActivity* extending `PreferenceFragmentCompat`.
+  6. Add new preference title in strings.xml.
+  7. Add new *Preference* in *header_preferences.xml*, using the new fragment, icon and title, and adding a key.
+  8. Add code in MainActivity to set default values for the settings. Add missing default values in XML preferences files.
+  9. Add code to read values for the settings and to show a Toast in the MainActivity.
+  
+Key points:
+  - Key strings shouldn't be extracted to string resources, it's better to use them as hard-coded text. They might be translated along with other strings, which might cause the app to crash.
+  
+     

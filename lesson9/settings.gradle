@@ -1,1 +1,1 @@
-include ':helloSharedPrefs', ':sharedPrefsCodingChallenge', ':sharedPrefsHomework', ':appWithSettings'
+include ':helloSharedPrefs', ':sharedPrefsCodingChallenge', ':sharedPrefsHomework', ':appWithSettings', ':droidCafeWithSettings'
