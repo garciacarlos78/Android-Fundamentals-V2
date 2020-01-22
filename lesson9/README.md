@@ -96,4 +96,25 @@ Steps:
 Key points:
   - Key strings shouldn't be extracted to string resources, it's better to use them as hard-coded text. They might be translated along with other strings, which might cause the app to crash.
   
-     
+### 9.2.3 - Coding challenge
+
+It is not possible to do this coding challenge, the app's behaviour is not the expected when you add a Settings Activity. I might have changed since the creation of the codelab (the menu does not change when you use a tablet, the behaviour is the same as in a phone).
+
+### 9.2.4 - Homework (droidCafeWithSettings)
+
+Instructions: https://codelabs.developers.google.com/codelabs/android-training-adding-settings-to-app/#9
+
+Homework is done in the same app as Task2 (it's a new setting).
+
+Add a new **General** settings screen. The new preferences is supposed to be added to the *General* settings screen, but it does not exist, so it's necessary to create it first.
+
+Steps:
+  1. Add a new xml resource to allocate the *General* preference (*general_preferences.xml*).
+  2. Create a new icon for the new setting. Add also a string resource to use as title.
+  3. Add new array resources for the delivery methods in *arrays.xml*.
+    **IMPORTANT:** There are two arrays needed when using `ListPreference`, one for the entries and one for the values. Anyway, it is possible to use the same array for both values in the XML file.
+  4. Add a new `ListPreference` item in *general_preferences.xml*, using the just created arrays as `android:entries` and `android:entryValues` attributes.
+  5. Create `GeneralFragment`, an inner class in `SettingsActivity` class extending `PreferenceFragmentCompat`.
+  6. Add the new settings title in strings.xml (*General*).
+  7. Add the new *General* preference in *header_preferences.xml*, using the new fragment, icon and title, and adding a key.
+  8. Add code in MainActivity to set default values for settings. 

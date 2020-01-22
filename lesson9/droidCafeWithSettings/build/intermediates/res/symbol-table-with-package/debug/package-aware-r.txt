@@ -37,6 +37,8 @@ animator mtrl_fab_hide_motion_spec
 animator mtrl_fab_show_motion_spec
 animator mtrl_fab_transformation_sheet_collapse_spec
 animator mtrl_fab_transformation_sheet_expand_spec
+array delivery_methods
+array delivery_values
 array market_entries
 array market_values
 array reply_entries
@@ -1111,6 +1113,7 @@ drawable donut_circle
 drawable froyo_circle
 drawable ic_arrow_down_24dp
 drawable ic_favorite
+drawable ic_general
 drawable ic_launcher_background
 drawable ic_launcher_foreground
 drawable ic_map
@@ -1572,6 +1575,7 @@ string character_counter_content_description
 string character_counter_pattern
 string choose_delivery_method
 string copy
+string delivery_header
 string donut_order_message
 string donuts
 string enter_address_hint
@@ -1583,6 +1587,7 @@ string fab_transformation_scrim_behavior
 string fab_transformation_sheet_behavior
 string froyo
 string froyo_order_message
+string general_header
 string hide_bottom_view_on_scroll_behavior
 string ice_cream_order_message
 string ice_cream_sandwiches
@@ -2243,6 +2248,7 @@ styleable View android_theme android_focusable paddingEnd paddingStart theme
 styleable ViewBackgroundHelper android_background backgroundTint backgroundTintMode
 styleable ViewStubCompat android_id android_layout android_inflatedId
 xml account_preferences
+xml general_preferences
 xml header_preferences
 xml messages_preferences
 xml sync_preferences

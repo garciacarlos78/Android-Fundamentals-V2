@@ -1,4 +1,4 @@
-#Wed Jan 22 09:57:29 CET 2020
+#Wed Jan 22 14:10:22 CET 2020
 base.0=/home/carlos/AndroidStudioProjects/fundamentals/lesson9/droidCafeWithSettings/build/intermediates/dex/debug/mergeDexDebug/out/classes.dex
 path.0=classes.dex
 renamed.0=classes.dex

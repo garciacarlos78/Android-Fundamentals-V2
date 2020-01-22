@@ -29,4 +29,17 @@
         <item>-1</item>
     </string-array>
 
+    <!-- Delivery Preferences   -->
+    <string-array name="delivery_methods">
+        <item>Same day messenger service</item>
+        <item>Next day ground delivery</item>
+        <item>Pick up</item>
+    </string-array>
+
+    <string-array name="delivery_values">
+        <item>Same day messenger service</item>
+        <item>Next day ground delivery</item>
+        <item>Pick up</item>
+    </string-array>
+
 </resources>

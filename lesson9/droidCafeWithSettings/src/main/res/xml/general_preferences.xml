@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <ListPreference
+        android:defaultValue="Same day messenger service"
+        android:entries="@array/delivery_methods"
+        android:entryValues="@array/delivery_methods"
+        android:key="delivery"
+        android:title="@string/delivery_header"
+        app:useSimpleSummaryProvider="true" />
+
+</PreferenceScreen>

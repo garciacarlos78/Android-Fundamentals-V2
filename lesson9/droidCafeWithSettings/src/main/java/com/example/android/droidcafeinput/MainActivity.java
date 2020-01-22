@@ -76,11 +76,13 @@ public class MainActivity extends AppCompatActivity {
         PreferenceManager.setDefaultValues(this, R.xml.account_preferences, false);
         PreferenceManager.setDefaultValues(this, R.xml.messages_preferences, false);
         PreferenceManager.setDefaultValues(this, R.xml.sync_preferences, false);
+        PreferenceManager.setDefaultValues(this, R.xml.general_preferences, false);
 
         // Read values for the settings
         SharedPreferences sharedPref = PreferenceManager.getDefaultSharedPreferences(this);
         String marketPref = sharedPref.getString("market", "-1");
-        displayToast(marketPref);
+        String deliveryPref = sharedPref.getString("delivery", "Same day messenger service");
+        displayToast("Market: " + marketPref + "\nDelivery: " + deliveryPref);
     }
 
     /**
